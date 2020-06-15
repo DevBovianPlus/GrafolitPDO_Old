@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01425605-DFD6-4409-89D5-270A4381DA5F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrafolitPDO</RootNamespace>
+    <AssemblyName>GrafolitPDO</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <UpgradeBackupLocation />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DatabaseWebService">
+      <HintPath>..\..\AnalizaProdaje\DatabaseWebService\bin\DatabaseWebService.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.DataAccess.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.SpellChecker.v19.2.Core, Version=19.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.SpellChecker.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v19.2, Version=19.2.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\DevExpress 19.2\Components\Bin\Framework\DevExpress.Web.ASPxSpellChecker.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.Resources.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2.Web, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2.Web.WebForms, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Web.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Global.asax" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home.aspx" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\addContact.png" />
+    <Content Include="Images\addHover.png" />
+    <Content Include="Images\addNewMenu.png" />
+    <Content Include="Images\addPopUp.png" />
+    <Content Include="Images\addPopupMain.png" />
+    <Content Include="Images\addPopupMainDisabled.png" />
+    <Content Include="Images\addPopupMainHover.png" />
+    <Content Include="Images\adminPage.png" />
+    <Content Include="Images\approvedInquires.png" />
+    <Content Include="Images\bovian_logo.png" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\cancelHover.png" />
+    <Content Include="Images\cancelPopUp.png" />
+    <Content Include="Images\carriersPrice.png" />
+    <Content Include="Images\clients.png" />
+    <Content Include="Images\clientsLinkMenu.png" />
+    <Content Include="Images\confirm.png" />
+    <Content Include="Images\confirmHover.png" />
+    <Content Include="Images\copy.png" />
+    <Content Include="Images\copyHover.png" />
+    <Content Include="Images\dashboard.png" />
+    <Content Include="Images\defaultPerson.png" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\editHover.png" />
+    <Content Include="Images\editPopup.png" />
+    <Content Include="Images\editPopupMain.png" />
+    <Content Include="Images\editPopupMainDisabled.png" />
+    <Content Include="Images\editPopupMainHover.png" />
+    <Content Include="Images\employee.png" />
+    <Content Include="Images\export_excel.png" />
+    <Content Include="Images\GrafoLitLogoOnly.png" />
+    <Content Include="Images\HelpIcon.png" />
+    <Content Include="Images\home.png" />
+    <Content Include="Images\homeHover.png" />
+    <Content Include="Images\inquiry.png" />
+    <Content Include="Images\inquries.png" />
+    <Content Include="Images\inspect.png" />
+    <Content Include="Images\lock.png" />
+    <Content Include="Images\lockHover.png" />
+    <Content Include="Images\logoGrafoLit.png" />
+    <Content Include="Images\magnifier.png" />
+    <Content Include="Images\newOrder.png" />
+    <Content Include="Images\newOrderHover.png" />
+    <Content Include="Images\odpokliciPodatki.png" />
+    <Content Include="Images\order.png" />
+    <Content Include="Images\Orders.png" />
+    <Content Include="Images\prevzem.png" />
+    <Content Include="Images\prevzemHover.png" />
+    <Content Include="Images\quickAdd.png" />
+    <Content Include="Images\quickAddHover.png" />
+    <Content Include="Images\reject.png" />
+    <Content Include="Images\rejectedRecalls.png" />
+    <Content Include="Images\rejectHover.png" />
+    <Content Include="Images\ReportImages\ReportGlave.png" />
+    <Content Include="Images\ReportImages\ReportNoga.png" />
+    <Content Include="Images\search.png" />
+    <Content Include="Images\searchDisabled.png" />
+    <Content Include="Images\sendMailToCarriers.png" />
+    <Content Include="Images\sendMailToCarriersHover.png" />
+    <Content Include="Images\searchHover.png" />
+    <Content Include="Images\settings.png" />
+    <Content Include="Images\signOut.png" />
+    <Content Include="Images\signOutHover.png" />
+    <Content Include="Images\submitInquiry.png" />
+    <Content Include="Images\submitInquryHover.png" />
+    <Content Include="Images\takeOverInspect.png" />
+    <Content Include="Images\tender.png" />
+    <Content Include="Images\transportType.png" />
+    <Content Include="Images\trash.png" />
+    <Content Include="Images\trashHover.png" />
+    <Content Include="Images\trashPopUp.png" />
+    <Content Include="Images\trashPopupMain.png" />
+    <Content Include="Images\trashPopupMainDisabled.png" />
+    <Content Include="Images\trashPopupMainHover.png" />
+    <Content Include="Navigation\MainMenu.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Pages\Client\Client.aspx" />
+    <Content Include="Pages\Client\ClientForm.aspx" />
+    <Content Include="Pages\Client\ContactPerson_popup.aspx" />
+    <Content Include="Pages\Employee\EmployeeTable.aspx" />
+    <Content Include="Pages\Employee\Employee_popup.aspx" />
+    <Content Include="Pages\Inquiry\InquiryForm.aspx" />
+    <Content Include="Pages\Inquiry\SearchSupplier_popup.aspx" />
+    <Content Include="Pages\Inquiry\InquiryPos_popup.aspx" />
+    <Content Include="Pages\Inquiry\InquiryTable.aspx" />
+    <Content Include="Pages\Order\PurchaseTable.aspx" />
+    <Content Include="Pages\Order\OrderTable.aspx" />
+    <Content Include="Pages\Order\OrderPos_popup.aspx" />
+    <Content Include="Pages\Order\OrderForm.aspx" />
+    <Content Include="Pages\Order\SearchProduct_popup.aspx" />
+    <Content Include="Pages\Settings\Admin.aspx" />
+    <Content Include="Pages\Settings\SettingsRunSQL.aspx" />
+    <Content Include="Pages\Settings\SystemEmail_popup.aspx" />
+    <Content Include="Pages\Settings\SystemEmailBody_popup.aspx" />
+    <Content Include="Pages\Settings\SystemEmailTable.aspx" />
+    <Content Include="Pages\Settings\SettingsForm.aspx" />
+    <Content Include="Report\ReportPreview.aspx" />
+    <Content Include="Scripts\CommonJS.js" />
+    <Content Include="Styles\Common.css" />
+    <Content Include="Styles\Content.css" />
+    <Content Include="Styles\DevExpressCustom.css" />
+    <Content Include="Styles\MasterPage.css" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Greetings.Master" />
+    <Content Include="Main.Master" />
+    <Content Include="Popup.Master" />
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CommonMethods.cs" />
+    <Compile Include="Common\Enums.cs" />
+    <Compile Include="Common\ExcelException.cs" />
+    <Compile Include="Common\TranslateHelper.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Greetings.Master.cs">
+      <DependentUpon>Greetings.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Greetings.Master.designer.cs">
+      <DependentUpon>Greetings.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\DataProviders\SystemEmailDataProvider.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataProviders\EmployeeDataProvider.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataProviders\InquiryProvider.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataProviders\ClientDataProvider.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\DataProviders\OrderDataProvider.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helpers\FileIOHelper.cs" />
+    <Compile Include="Helpers\hlpCalculateWeight.cs" />
+    <Compile Include="Helpers\FileToDownload.cs" />
+    <Compile Include="Helpers\InfrastructureHelper.cs" />
+    <Compile Include="Helpers\PrincipalHelper.cs" />
+    <Compile Include="Helpers\PropertyCopyHelper.cs" />
+    <Compile Include="Helpers\QueryStringBuilder.cs" />
+    <Compile Include="Helpers\ReportHelper.cs" />
+    <Compile Include="Helpers\WebServiceHelper.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Infrastructure\Authentication.cs" />
+    <Compile Include="Infrastructure\DatabaseConnection.cs" />
+    <Compile Include="Infrastructure\ServerMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Infrastructure\UserPrincipal.cs" />
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Client\Client.aspx.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Client\Client.aspx.designer.cs">
+      <DependentUpon>Client.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Client\ClientForm.aspx.cs">
+      <DependentUpon>ClientForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Client\ClientForm.aspx.designer.cs">
+      <DependentUpon>ClientForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Client\ContactPerson_popup.aspx.cs">
+      <DependentUpon>ContactPerson_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Client\ContactPerson_popup.aspx.designer.cs">
+      <DependentUpon>ContactPerson_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Employee\EmployeeTable.aspx.cs">
+      <DependentUpon>EmployeeTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Employee\EmployeeTable.aspx.designer.cs">
+      <DependentUpon>EmployeeTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Employee\Employee_popup.aspx.cs">
+      <DependentUpon>Employee_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Employee\Employee_popup.aspx.designer.cs">
+      <DependentUpon>Employee_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryForm.aspx.cs">
+      <DependentUpon>InquiryForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryForm.aspx.designer.cs">
+      <DependentUpon>InquiryForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Inquiry\SearchSupplier_popup.aspx.cs">
+      <DependentUpon>SearchSupplier_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Inquiry\SearchSupplier_popup.aspx.designer.cs">
+      <DependentUpon>SearchSupplier_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryPos_popup.aspx.cs">
+      <DependentUpon>InquiryPos_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryPos_popup.aspx.designer.cs">
+      <DependentUpon>InquiryPos_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryTable.aspx.cs">
+      <DependentUpon>InquiryTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Inquiry\InquiryTable.aspx.designer.cs">
+      <DependentUpon>InquiryTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\PurchaseTable.aspx.cs">
+      <DependentUpon>PurchaseTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\PurchaseTable.aspx.designer.cs">
+      <DependentUpon>PurchaseTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\OrderTable.aspx.cs">
+      <DependentUpon>OrderTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\OrderTable.aspx.designer.cs">
+      <DependentUpon>OrderTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\OrderPos_popup.aspx.cs">
+      <DependentUpon>OrderPos_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\OrderPos_popup.aspx.designer.cs">
+      <DependentUpon>OrderPos_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\OrderForm.aspx.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\OrderForm.aspx.designer.cs">
+      <DependentUpon>OrderForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\SearchProduct_popup.aspx.cs">
+      <DependentUpon>SearchProduct_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\SearchProduct_popup.aspx.designer.cs">
+      <DependentUpon>SearchProduct_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\SettingsRunSQL.aspx.cs">
+      <DependentUpon>SettingsRunSQL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\SettingsRunSQL.aspx.designer.cs">
+      <DependentUpon>SettingsRunSQL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmail_popup.aspx.cs">
+      <DependentUpon>SystemEmail_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmail_popup.aspx.designer.cs">
+      <DependentUpon>SystemEmail_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmailBody_popup.aspx.cs">
+      <DependentUpon>SystemEmailBody_popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmailBody_popup.aspx.designer.cs">
+      <DependentUpon>SystemEmailBody_popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmailTable.aspx.cs">
+      <DependentUpon>SystemEmailTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\SystemEmailTable.aspx.designer.cs">
+      <DependentUpon>SystemEmailTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\SettingsForm.aspx.cs">
+      <DependentUpon>SettingsForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Settings\SettingsForm.aspx.designer.cs">
+      <DependentUpon>SettingsForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Popup.Master.cs">
+      <DependentUpon>Popup.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Popup.Master.designer.cs">
+      <DependentUpon>Popup.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\InquiryForSupplierReport.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\ReportPreview.aspx.cs">
+      <DependentUpon>ReportPreview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\ReportPreview.aspx.designer.cs">
+      <DependentUpon>ReportPreview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\HandledException1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HandledException.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Report\InquiryForSupplierReport.resx">
+      <DependentUpon>InquiryForSupplierReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\HandledException.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>HandledException1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>43428</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:43428/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

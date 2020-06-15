@@ -13637,3 +13637,11 @@ A network-related or instance-specific error occurred while establishing a conne
 6. 06. 2020 07:52:03 Before SignIn
 6. 06. 2020 07:52:06 After SignIn
 6. 06. 2020 07:52:07 After Authenticate
+12. 06. 2020 12:17:54 Before Authenticate
+12. 06. 2020 12:17:54 Before SignIn
+12. 06. 2020 12:17:58 After SignIn
+12. 06. 2020 12:17:58 After Authenticate : True
+15. 06. 2020 08:39:24 Before Authenticate
+15. 06. 2020 08:39:24 Before SignIn
+15. 06. 2020 08:39:42 After SignIn
+15. 06. 2020 08:39:42 After Authenticate : True
