@@ -102,6 +102,7 @@ namespace GrafolitPDO.Pages.Inquiry
                     model.Dobavitelj = Supplier;
                     model.DobaviteljID = Supplier.idStranka;
                     model.DobaviteljNaziv_P = sSelectedSupplier;
+                    model.DobaviteljKontaktOsebe = "";
                 }
                 GetInquiryDataProvider().SetInquiryPositionModel(model);
             }

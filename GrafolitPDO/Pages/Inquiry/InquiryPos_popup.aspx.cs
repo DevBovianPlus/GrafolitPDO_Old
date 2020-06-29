@@ -243,7 +243,18 @@ namespace GrafolitPDO.Pages.Inquiry
                 {
                     foreach (ContactPersonModel cpmItem in list)
                     {
-                        GridLookupKontaktnaOSeba.GridView.Selection.SelectRowByKey(cpmItem.idKontaktneOsebe);
+                        if (model.DobaviteljKontaktOsebe != null && model.DobaviteljKontaktOsebe.Length > 0)
+                        {
+                            if (model.DobaviteljKontaktOsebe.Contains(cpmItem.NazivKontaktneOsebe))
+                            {
+                                GridLookupKontaktnaOSeba.GridView.Selection.SelectRowByKey(cpmItem.idKontaktneOsebe);
+                            }
+                        }
+                        else
+                        {
+                            GridLookupKontaktnaOSeba.GridView.Selection.SelectRowByKey(cpmItem.idKontaktneOsebe);
+                        }
+                        
                     }
                 }
             }
