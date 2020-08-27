@@ -75,6 +75,7 @@ namespace GrafolitPDO.Pages.Client
             txtFax.Text = model.Fax;
             txtEmail.Text = model.Email;
             MemoNotes.Text = model.Opombe;
+            chkNabava.Checked = model.IsNabava;
         }
 
         private bool AddOrEditEntityObject(bool add = false)
@@ -101,6 +102,7 @@ namespace GrafolitPDO.Pages.Client
             model.Fax = txtFax.Text;
             model.Email = txtEmail.Text;
             model.Opombe = MemoNotes.Text;
+            model.IsNabava = chkNabava.Checked;
 
             ContactPersonModel newModel = CheckModelValidation(GetDatabaseConnectionInstance().SaveContactPersonChanges(model));
 

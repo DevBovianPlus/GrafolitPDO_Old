@@ -129,6 +129,18 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-6 mb-2 mb-lg-0">
+            <div class="row m-0 align-items-center justify-content-end">
+                <div class="row m-0 align-items-center">
+                    <div class="col-0 p-0" style="margin-right: 38px;">
+                        <dx:ASPxLabel ID="ASPxLabel7" runat="server" Text="Nabava : " Font-Size="12px"></dx:ASPxLabel>
+                    </div>
+                    <div class="col p-0">
+                        <dx:ASPxCheckBox ID="chkNabava" runat="server"></dx:ASPxCheckBox>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row m-0 pb-3">

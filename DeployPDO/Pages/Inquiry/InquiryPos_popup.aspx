@@ -153,6 +153,18 @@
                     break;
             }
         }
+
+        var timerHandle = -1;
+
+        function OnBatchEditStartEditing(s, e) {
+            clearTimeout(timerHandle);
+        }
+        function OnBatchEditEndEditing(s, e) {
+            timerHandle = setTimeout(function () {
+                s.UpdateEdit();
+            }, 1000);
+        }	
+
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolderPopup" runat="server">
@@ -476,6 +488,7 @@
                                             <DeleteButton Text="Izbriši"></DeleteButton>
                                             <RecoverButton Text="Povrni"></RecoverButton>
                                         </SettingsCommandButton>
+                                        <ClientSideEvents BatchEditStartEditing="OnBatchEditStartEditing" BatchEditEndEditing="OnBatchEditEndEditing" />
                                         <Columns>
 
                                             <%--<dx:GridViewCommandColumn ShowSelectCheckbox="true" Width="90px" SelectAllCheckboxMode="None" Caption="Izberi" ShowClearFilterButton="true" />--%>

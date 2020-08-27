@@ -13742,3 +13742,587 @@ A network-related or instance-specific error occurred while establishing a conne
 29. 06. 2020 11:27:32 vvvvvvvvvv
 29. 06. 2020 11:27:32 3
 29. 06. 2020 11:27:32 4
+24. 07. 2020 15:16:35 Enter function
+24. 07. 2020 15:16:35 1
+24. 07. 2020 15:16:35 2
+24. 07. 2020 15:16:35 dddddd
+24. 07. 2020 15:16:35 2
+24. 07. 2020 15:16:35 vvvvvvvvvvvvvvv
+24. 07. 2020 15:16:35 2
+24. 07. 2020 15:16:35 tttttttttttttttt
+24. 07. 2020 15:16:35 3
+24. 07. 2020 15:16:35 4
+27. 07. 2020 10:36:12 Before Authenticate
+27. 07. 2020 10:36:12 Before SignIn
+27. 07. 2020 10:36:12 After SignIn
+27. 07. 2020 10:36:12 After Authenticate : True
+31. 07. 2020 09:06:54 Enter function
+31. 07. 2020 09:06:54 1
+31. 07. 2020 09:06:54 2
+31. 07. 2020 09:06:54 test 1
+31. 07. 2020 09:06:54 3
+31. 07. 2020 09:06:54 4
+31. 07. 2020 09:08:12 Enter function
+31. 07. 2020 09:08:12 1
+31. 07. 2020 09:08:12 2
+31. 07. 2020 09:08:12 test 1
+31. 07. 2020 09:08:12 3
+31. 07. 2020 09:08:12 4
+31. 07. 2020 09:09:24 Enter function
+31. 07. 2020 09:09:24 1
+31. 07. 2020 09:09:24 2
+31. 07. 2020 09:09:24 test 1
+31. 07. 2020 09:09:24 3
+31. 07. 2020 09:09:24 4
+31. 07. 2020 09:10:31 Enter function
+31. 07. 2020 09:10:31 1
+31. 07. 2020 09:10:31 2
+31. 07. 2020 09:10:31 test 1
+31. 07. 2020 09:10:31 3
+31. 07. 2020 09:10:31 4
+31. 07. 2020 09:16:15 Before Authenticate
+31. 07. 2020 09:16:15 Before SignIn
+31. 07. 2020 09:16:16 After SignIn
+31. 07. 2020 09:16:16 After Authenticate : True
+31. 07. 2020 09:17:41 Enter function
+31. 07. 2020 09:17:41 1
+31. 07. 2020 09:17:41 2
+31. 07. 2020 09:17:41 test 1
+31. 07. 2020 09:17:41 3
+31. 07. 2020 09:17:41 4
+31. 07. 2020 09:19:13 Enter function
+31. 07. 2020 09:19:13 1
+31. 07. 2020 09:19:13 2
+31. 07. 2020 09:19:13 test 1
+31. 07. 2020 09:19:13 3
+31. 07. 2020 09:19:13 4
+31. 07. 2020 10:46:28 Enter function
+31. 07. 2020 10:46:28 1
+31. 07. 2020 10:46:28 2
+31. 07. 2020 10:46:28 kar nekaj
+31. 07. 2020 10:46:28 3
+31. 07. 2020 10:46:28 4
+31. 07. 2020 10:46:57 Enter function
+31. 07. 2020 10:46:57 1
+31. 07. 2020 10:46:57 2
+31. 07. 2020 10:46:57 kar nekaj
+31. 07. 2020 10:46:57 3
+31. 07. 2020 10:46:57 4
+31. 07. 2020 10:59:57 Enter function
+31. 07. 2020 10:59:57 1
+31. 07. 2020 10:59:57 2
+31. 07. 2020 10:59:57 vvvvvvvvvvvvvvvvvvv
+31. 07. 2020 10:59:57 3
+31. 07. 2020 10:59:57 4
+31. 07. 2020 11:00:25 Enter function
+31. 07. 2020 11:00:25 1
+31. 07. 2020 11:00:25 2
+31. 07. 2020 11:00:25 vvvvvvvvvvvvvvvvvvv
+31. 07. 2020 11:00:25 3
+31. 07. 2020 11:00:25 4
+31. 07. 2020 11:02:39 Enter function
+31. 07. 2020 11:02:39 1
+31. 07. 2020 11:02:39 2
+31. 07. 2020 11:02:39 vvvvvvvvvvvvvvvvvvv
+31. 07. 2020 11:02:39 3
+31. 07. 2020 11:02:39 4
+31. 07. 2020 11:30:04 Enter function
+31. 07. 2020 11:30:04 1
+31. 07. 2020 11:30:04 2
+31. 07. 2020 11:30:04 vvvvvvvvvvvvvvv
+31. 07. 2020 11:30:04 3
+31. 07. 2020 11:30:04 4
+31. 07. 2020 11:34:37 Enter function
+31. 07. 2020 11:34:37 1
+31. 07. 2020 11:34:37 2
+31. 07. 2020 11:34:37 vvvvvvvvvvvvvvv
+31. 07. 2020 11:34:37 3
+31. 07. 2020 11:34:37 4
+31. 07. 2020 11:42:28 Enter function
+31. 07. 2020 11:42:28 1
+31. 07. 2020 11:42:28 2
+31. 07. 2020 11:42:28 vvvvvvvvvvvvvvv
+31. 07. 2020 11:42:28 3
+31. 07. 2020 11:42:28 4
+31. 07. 2020 11:44:00 Enter function
+31. 07. 2020 11:44:00 1
+31. 07. 2020 11:44:00 2
+31. 07. 2020 11:44:00 vvvvvvvvvvvvvvv
+31. 07. 2020 11:44:00 3
+31. 07. 2020 11:44:00 4
+31. 07. 2020 11:53:39 Enter function
+31. 07. 2020 11:53:39 1
+31. 07. 2020 11:53:39 2
+31. 07. 2020 11:53:39 vvvvvvvvvvvvvvv
+31. 07. 2020 11:53:40 3
+31. 07. 2020 11:53:40 4
+31. 07. 2020 11:59:31 Enter function
+31. 07. 2020 11:59:31 1
+31. 07. 2020 11:59:31 2
+31. 07. 2020 11:59:31 vvvvvvvvvvvvvvv
+31. 07. 2020 11:59:31 3
+31. 07. 2020 11:59:31 4
+31. 07. 2020 12:01:34 Enter function
+31. 07. 2020 12:01:34 1
+31. 07. 2020 12:01:34 2
+31. 07. 2020 12:01:34 vvvvvvvvvvvvvvv
+31. 07. 2020 12:01:34 3
+31. 07. 2020 12:01:34 4
+31. 07. 2020 12:05:04 Enter function
+31. 07. 2020 12:05:04 1
+31. 07. 2020 12:05:04 2
+31. 07. 2020 12:05:05 vvvvvvvvvvvvvvv
+31. 07. 2020 12:05:05 3
+31. 07. 2020 12:05:05 4
+17. 08. 2020 11:52:09 Enter function
+17. 08. 2020 11:52:09 1
+17. 08. 2020 11:52:09 2
+17. 08. 2020 11:52:09 ROYAL 150G 70X100 SB
+17. 08. 2020 11:52:09 3
+17. 08. 2020 11:52:09 4
+17. 08. 2020 12:07:35 The request was aborted: The operation has timed out. System
+17. 08. 2020 12:09:16 The request was aborted: The operation has timed out. System
+17. 08. 2020 12:36:45 Enter function
+17. 08. 2020 12:36:45 1
+17. 08. 2020 12:36:45 2
+17. 08. 2020 12:36:45 uztruzturr
+17. 08. 2020 12:36:45 3
+17. 08. 2020 12:36:45 4
+17. 08. 2020 12:37:12 Enter function
+17. 08. 2020 12:37:12 1
+17. 08. 2020 12:37:12 2
+17. 08. 2020 12:37:12 uztruzturr
+17. 08. 2020 12:37:12 3
+17. 08. 2020 12:37:12 4
+17. 08. 2020 12:37:40 Enter function
+17. 08. 2020 12:37:40 1
+17. 08. 2020 12:37:40 2
+17. 08. 2020 12:37:40 uztruzturr
+17. 08. 2020 12:37:40 3
+17. 08. 2020 12:37:40 4
+20. 08. 2020 14:54:18 The request was aborted: The operation has timed out. System
+20. 08. 2020 15:00:50 Pozdravljeni! 
+ Uporabnik OTP Admin je dne četrtek, 20. avgust 2020 ob 15:00:47 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.CheckIfPolePozicija() in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 620
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 427
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=441
+
+
+20. 08. 2020 15:37:48 Pozdravljeni! 
+ Uporabnik OTP Admin je dne četrtek, 20. avgust 2020 ob 15:37:46 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=441
+
+
+21. 08. 2020 09:05:00 Before Authenticate
+21. 08. 2020 09:05:00 Before SignIn
+21. 08. 2020 09:05:00 After SignIn
+21. 08. 2020 09:05:00 After Authenticate : True
+21. 08. 2020 09:06:46 Enter function
+21. 08. 2020 09:06:46 1
+21. 08. 2020 09:06:46 2
+21. 08. 2020 09:06:46 ROYALSET OFFSET 80G 64X90 SB
+21. 08. 2020 09:06:46 2
+21. 08. 2020 09:06:46 ROYALCOAT PREMIUM GLOSS 90G 64X90 SB
+21. 08. 2020 09:06:46 3
+21. 08. 2020 09:06:46 4
+21. 08. 2020 11:36:39 Pozdravljeni! 
+ Uporabnik Boris Do je dne petek, 21. avgust 2020 ob 11:36:37 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.AddOrEditEntityObject(Boolean add) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 203
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 451
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=442
+
+
+21. 08. 2020 14:56:52 Enter function
+21. 08. 2020 14:56:52 1
+21. 08. 2020 14:56:52 2
+21. 08. 2020 14:56:52 90G 64X90
+21. 08. 2020 14:56:52 2
+21. 08. 2020 14:56:52 MATERICA PITCH 360G 72X102 SB
+21. 08. 2020 14:56:52 3
+21. 08. 2020 14:56:52 4
+24. 08. 2020 11:36:16 Before Authenticate
+24. 08. 2020 11:36:16 Before SignIn
+24. 08. 2020 11:36:50 After SignIn
+24. 08. 2020 11:36:50 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+24. 08. 2020 11:36:50 
+24. 08. 2020 11:36:50 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+24. 08. 2020 11:45:14 Before Authenticate
+24. 08. 2020 11:45:14 Before SignIn
+24. 08. 2020 11:45:15 After SignIn
+24. 08. 2020 11:45:15 After Authenticate : True
+24. 08. 2020 13:15:54 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 13:15:53 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.AddOrEditEntityObject(Boolean add) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 203
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 451
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=443
+
+
+24. 08. 2020 13:38:34 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 13:38:32 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.Web.HttpCompileException (0x80004005): d:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderPos_popup.aspx(171): error CS1061: 'ASP.pages_order_orderpos_popup_aspx' does not contain a definition for 'PopupControlSearchSupplier_WindowCallback' and no extension method 'PopupControlSearchSupplier_WindowCallback' accepting a first argument of type 'ASP.pages_order_orderpos_popup_aspx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.Web.HttpCompileException (0x80004005): d:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderPos_popup.aspx(171): error CS1061: 'ASP.pages_order_orderpos_popup_aspx' does not contain a definition for 'PopupControlSearchSupplier_WindowCallback' and no extension method 'PopupControlSearchSupplier_WindowCallback' accepting a first argument of type 'ASP.pages_order_orderpos_popup_aspx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=439
+
+
+24. 08. 2020 13:59:12 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 13:59:10 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+24. 08. 2020 14:00:04 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 14:00:03 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+24. 08. 2020 14:01:32 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 14:01:31 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+24. 08. 2020 14:05:22 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 14:05:21 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+24. 08. 2020 14:12:24 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 24. avgust 2020 ob 14:12:23 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+24. 08. 2020 18:05:50 Enter function
+24. 08. 2020 18:05:50 1
+24. 08. 2020 18:05:50 2
+24. 08. 2020 18:05:50 PARADE LABEL A GLOSS 80G 65X96 SB
+24. 08. 2020 18:05:50 3
+24. 08. 2020 18:05:50 4
+24. 08. 2020 18:06:19 Enter function
+24. 08. 2020 18:06:19 1
+24. 08. 2020 18:06:19 2
+24. 08. 2020 18:06:19 PARADE LABEL A GLOSS 80G 65X96 SB
+24. 08. 2020 18:06:19 2
+24. 08. 2020 18:06:19 PARADE LABEL A GLOSS 80G 100X70 BB
+24. 08. 2020 18:06:19 3
+24. 08. 2020 18:06:19 4
+24. 08. 2020 18:07:30 Enter function
+24. 08. 2020 18:07:30 1
+24. 08. 2020 18:07:30 2
+24. 08. 2020 18:07:30 PARADE LABEL A GLOSS 80G 65X96 SB
+24. 08. 2020 18:07:30 2
+24. 08. 2020 18:07:30 PARADE LABEL A GLOSS 80G 100X70 BB
+24. 08. 2020 18:07:30 2
+24. 08. 2020 18:07:30 ROYAL EXTRA BULK VOL. 1.1 135G 88X63 BB
+24. 08. 2020 18:07:30 2
+24. 08. 2020 18:07:30 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+24. 08. 2020 18:07:30 3
+24. 08. 2020 18:07:30 4
+25. 08. 2020 14:26:22 Before Authenticate
+25. 08. 2020 14:26:22 Before SignIn
+25. 08. 2020 14:26:29 After SignIn
+25. 08. 2020 14:26:29 After Authenticate : True
+25. 08. 2020 14:33:18 Enter function
+25. 08. 2020 14:33:18 1
+25. 08. 2020 14:33:18 2
+25. 08. 2020 14:33:18 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+25. 08. 2020 14:33:18 2
+25. 08. 2020 14:33:18 PARADE LABEL A GLOSS 80G 65X96 SB
+25. 08. 2020 14:33:18 2
+25. 08. 2020 14:33:18 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+25. 08. 2020 14:33:18 3
+25. 08. 2020 14:33:18 4
+25. 08. 2020 14:38:42 Enter function
+25. 08. 2020 14:38:42 1
+25. 08. 2020 14:38:42 2
+25. 08. 2020 14:38:42 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+25. 08. 2020 14:38:42 2
+25. 08. 2020 14:38:42 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+25. 08. 2020 14:38:42 3
+25. 08. 2020 14:38:43 4
+25. 08. 2020 14:41:58 Enter function
+25. 08. 2020 14:41:58 1
+25. 08. 2020 14:41:58 2
+25. 08. 2020 14:41:58 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+25. 08. 2020 14:41:58 2
+25. 08. 2020 14:41:58 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+25. 08. 2020 14:41:58 3
+25. 08. 2020 14:41:58 4
+25. 08. 2020 14:43:55 The request was aborted: The operation has timed out. System
+25. 08. 2020 14:54:06 Enter function
+25. 08. 2020 14:54:06 1
+25. 08. 2020 14:54:06 2
+25. 08. 2020 14:54:06 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+25. 08. 2020 14:54:06 2
+25. 08. 2020 14:54:06 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+25. 08. 2020 14:54:06 3
+25. 08. 2020 14:54:06 4
+25. 08. 2020 15:16:41 Pozdravljeni! 
+ Uporabnik Boris Do je dne torek, 25. avgust 2020 ob 15:16:39 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.MissingMethodException: Method not found: 'Void DatabaseWebService.ModelsPDO.Inquiry.InquiryPositionArtikelModel.set_DobaviteljNaziv_PA(System.String)'.
+   at GrafolitPDO.Pages.Order.OrderPos_popup.AddOrEditEntityObject(Boolean add)
+   at GrafolitPDO.Pages.Order.OrderPos_popup.ProcessUserAction()
+   at GrafolitPDO.Pages.Order.OrderPos_popup.btnConfirm_Click(Object sender, EventArgs e)
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_order_orderpos_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_hgox4ru1.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.MissingMethodException: Method not found: 'Void DatabaseWebService.ModelsPDO.Inquiry.InquiryPositionArtikelModel.set_DobaviteljNaziv_PA(System.String)'.
+   at GrafolitPDO.Pages.Order.OrderPos_popup.AddOrEditEntityObject(Boolean add)
+   at GrafolitPDO.Pages.Order.OrderPos_popup.ProcessUserAction()
+   at GrafolitPDO.Pages.Order.OrderPos_popup.btnConfirm_Click(Object sender, EventArgs e)
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.MissingMethodException: Method not found: 'Void DatabaseWebService.ModelsPDO.Inquiry.InquiryPositionArtikelModel.set_DobaviteljNaziv_PA(System.String)'.
+   at GrafolitPDO.Pages.Order.OrderPos_popup.AddOrEditEntityObject(Boolean add)
+   at GrafolitPDO.Pages.Order.OrderPos_popup.ProcessUserAction()
+   at GrafolitPDO.Pages.Order.OrderPos_popup.btnConfirm_Click(Object sender, EventArgs e)
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_order_orderpos_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_hgox4ru1.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.MissingMethodException: Method not found: 'Void DatabaseWebService.ModelsPDO.Inquiry.InquiryPositionArtikelModel.set_DobaviteljNaziv_PA(System.String)'.
+   at GrafolitPDO.Pages.Order.OrderPos_popup.AddOrEditEntityObject(Boolean add)
+   at GrafolitPDO.Pages.Order.OrderPos_popup.ProcessUserAction()
+   at GrafolitPDO.Pages.Order.OrderPos_popup.btnConfirm_Click(Object sender, EventArgs e)
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderPos_popup.aspx
+
+
+25. 08. 2020 15:30:42 Enter function
+25. 08. 2020 15:30:43 1
+25. 08. 2020 15:30:43 2
+25. 08. 2020 15:30:43 wwwwwwwwwwww
+25. 08. 2020 15:30:43 2
+25. 08. 2020 15:30:43 bbbbbbbbbbbbbbb
+25. 08. 2020 15:30:43 3
+25. 08. 2020 15:30:43 4
+25. 08. 2020 15:37:19 Repository failed to save dataAn error occurred while starting a transaction on the provider connection. See the inner exception for details.A transport-level error has occurred when receiving results from the server. (provider: SQL Network Interfaces, error: 0 - SQL Server Network Interfaces: )Unknown error (0x87c759e8)
+25. 08. 2020 16:01:37 The operation has timed out System
+26. 08. 2020 07:37:19 Before Authenticate
+26. 08. 2020 07:37:20 Before SignIn
+26. 08. 2020 07:37:57 After SignIn
+26. 08. 2020 07:37:57 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+26. 08. 2020 07:37:57 
+26. 08. 2020 07:37:57 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+26. 08. 2020 07:38:38 Before Authenticate
+26. 08. 2020 07:38:38 Before SignIn
+26. 08. 2020 07:39:01 After SignIn
+26. 08. 2020 07:39:01 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+26. 08. 2020 07:39:01 
+26. 08. 2020 07:39:01 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+26. 08. 2020 07:39:57 Before Authenticate
+26. 08. 2020 07:39:57 Before SignIn
+26. 08. 2020 07:39:58 After SignIn
+26. 08. 2020 07:39:58 After Authenticate : True
+26. 08. 2020 07:58:23 Enter function
+26. 08. 2020 07:58:23 1
+26. 08. 2020 07:58:23 2
+26. 08. 2020 07:58:23 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+26. 08. 2020 07:58:23 2
+26. 08. 2020 07:58:23 ROYALSET OFFSET 140G 64X90 SB
+26. 08. 2020 07:58:23 2
+26. 08. 2020 07:58:23 ROYALSET OFFSET 140G 64X90 SB FSC Mix Credit
+26. 08. 2020 07:58:23 3
+26. 08. 2020 07:58:23 4
+26. 08. 2020 09:19:36 The request was aborted: The operation has timed out. System
+26. 08. 2020 12:04:14 Enter function
+26. 08. 2020 12:04:14 1
+26. 08. 2020 12:04:14 2
+26. 08. 2020 12:04:14 ROYALSET OFFSET 140G 64X90 SB FSC Mix Credit
+26. 08. 2020 12:04:14 2
+26. 08. 2020 12:04:14 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+26. 08. 2020 12:04:14 2
+26. 08. 2020 12:04:14 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+26. 08. 2020 12:04:14 3
+26. 08. 2020 12:04:14 4
+26. 08. 2020 12:11:56 The request was aborted: The operation has timed out. System
+26. 08. 2020 13:28:57 The request was aborted: The operation has timed out. System
+26. 08. 2020 15:05:28 The request was aborted: The operation has timed out. System
+26. 08. 2020 15:16:54 Repository failed to retrieve dataObject reference not set to an instance of an object.
+26. 08. 2020 15:18:36 Repository failed to retrieve dataObject reference not set to an instance of an object.
+26. 08. 2020 15:21:27 The operation has timed out System
+26. 08. 2020 15:25:42 The operation has timed out System
+27. 08. 2020 09:20:27 Before Authenticate
+27. 08. 2020 09:20:27 Before SignIn
+27. 08. 2020 09:20:29 After SignIn
+27. 08. 2020 09:20:30 After Authenticate : True
+27. 08. 2020 09:22:50 The request was aborted: The operation has timed out. System
+27. 08. 2020 09:27:11 The operation has timed out System
+27. 08. 2020 09:31:52 The request was aborted: The operation has timed out. System
+27. 08. 2020 09:36:08 The operation has timed out System
+27. 08. 2020 11:09:47 The operation has timed out System
+27. 08. 2020 11:28:07 Enter function
+27. 08. 2020 11:28:07 1
+27. 08. 2020 11:28:07 2
+27. 08. 2020 11:28:07 ROYAL EXTRA BULK VOL. 1.1 100G 70X100 SB
+27. 08. 2020 11:28:07 2
+27. 08. 2020 11:28:07 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+27. 08. 2020 11:28:07 2
+27. 08. 2020 11:28:07 ROYALSET OFFSET 140G 64X90 SB FSC Mix Credit
+27. 08. 2020 11:28:07 3
+27. 08. 2020 11:28:07 4
+27. 08. 2020 11:41:36 Enter function
+27. 08. 2020 11:41:36 1
+27. 08. 2020 11:41:36 2
+27. 08. 2020 11:41:36 ROYALSET OFFSET 140G 64X90 SB FSC Mix Credit
+27. 08. 2020 11:41:36 2
+27. 08. 2020 11:41:36 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+27. 08. 2020 11:41:36 3
+27. 08. 2020 11:41:36 4
+27. 08. 2020 11:43:03 Enter function
+27. 08. 2020 11:43:03 1
+27. 08. 2020 11:43:03 2
+27. 08. 2020 11:43:03 ARCTIC MATT 115G 100X70 BB
+27. 08. 2020 11:43:03 2
+27. 08. 2020 11:43:03 OFFSET AMBER 70G 100X70 BB FSC Mix Credit 
+27. 08. 2020 11:43:03 3
+27. 08. 2020 11:43:03 4
+27. 08. 2020 11:43:21 Enter function
+27. 08. 2020 11:43:21 1
+27. 08. 2020 11:43:21 2
+27. 08. 2020 11:43:21 ROYALSET OFFSET 140G 64X90 SB FSC Mix Credit
+27. 08. 2020 11:43:21 2
+27. 08. 2020 11:43:21 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+27. 08. 2020 11:43:21 3
+27. 08. 2020 11:43:21 4
+27. 08. 2020 11:43:33 Enter function
+27. 08. 2020 11:43:33 1
+27. 08. 2020 11:43:33 2
+27. 08. 2020 11:43:33 ARCTIC MATT 115G 100X70 BB
+27. 08. 2020 11:43:33 2
+27. 08. 2020 11:43:33 OFFSET AMBER 70G 100X70 BB FSC Mix Credit 
+27. 08. 2020 11:43:33 3
+27. 08. 2020 11:43:33 4
+27. 08. 2020 11:52:24 Enter function
+27. 08. 2020 11:52:24 1
+27. 08. 2020 11:52:24 2
+27. 08. 2020 11:52:24 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+27. 08. 2020 11:52:24 3
+27. 08. 2020 11:52:24 4
+27. 08. 2020 11:56:04 Enter function
+27. 08. 2020 11:56:04 1
+27. 08. 2020 11:56:04 2
+27. 08. 2020 11:56:04 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
+27. 08. 2020 11:56:04 3
+27. 08. 2020 11:56:04 4

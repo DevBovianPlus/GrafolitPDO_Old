@@ -99,7 +99,7 @@ namespace GrafolitPDO.Pages.Order
             if (selArtikel != null)
             {
                 txtName.Text = selArtikel.Naziv;
-                txtDobavitellj.Text = selPosition.Dobavitelj.NazivPrvi;
+                txtDobavitellj.Text = selArtikel.DobaviteljNaziv_PA != null ? selArtikel.DobaviteljNaziv_PA : "";
                 txtProductSearch.Text = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
                 txtOrderQ.Text = (selArtikel.KolicinavKG > 0)  ? selArtikel.KolicinavKG.ToString() : selArtikel.Kolicina1.ToString();
                 if (selArtikel.ArtikelCena > 0)
@@ -153,11 +153,20 @@ namespace GrafolitPDO.Pages.Order
                 selArtikel.OpombaNarocilnica = memOpombaNarocilnica.Text;
                 selArtikel.PrikaziKupca = CheckBoxPrikaziKupca.Checked;
                 selArtikel.DatumDobavePos = Convert.ToDateTime (DateEditSupplyDate.Value);
+
+                selArtikel.DobaviteljNaziv_PA = txtDobavitellj.Text;
+                ClientFullModel Supplier = CheckModelValidation(GetDatabaseConnectionInstance().GetClientByNameOrInsert(selArtikel.DobaviteljNaziv_PA));
+                if (Supplier != null)
+                {
+                    selArtikel.Dobavitelj = Supplier;
+                    selArtikel.DobaviteljID = Supplier.idStranka;
+                }
             }
 
             if (model != null)
             {
                 GetInquiryDataProvider().SetInquiryModel(model);
+                model = CheckModelValidation(GetDatabaseConnectionInstance().SaveInquiryPurchase(model));
             }
 
                 return true;
@@ -257,9 +266,56 @@ namespace GrafolitPDO.Pages.Order
                 if (selectedProduct != null)
                 {
                     txtProductSearch.Text = selectedProduct.Naziv;
-                    //txtPrice.Text = selectedProduct.
+                    txtDobavitellj.Text = selectedProduct.Dobavitelj;
                 }
             }
+            else if (e.Parameter == "SupplierSelected")
+            {
+                string sSupplier = GetStringValueFromSession(Enums.InquirySession.ReturnSupplierVal);
+                List<ClientSimpleModel> model;
+                txtDobavitellj.Text = sSupplier;
+                model = CheckModelValidation(GetDatabaseConnectionInstance().GetSupplierByName(sSupplier.Trim()));
+                if (model.Count == 1)
+                {
+                    AddSupplierToForm(model[0]);
+                }
+            }
+            else if (e.Parameter == "StartSearchSupplierPopup")
+            {
+                AddValueToSession(Enums.CommonSession.SearchString, txtDobavitellj.Text.Trim());
+
+                List<ClientSimpleModel> model;
+                model = CheckModelValidation(GetDatabaseConnectionInstance().GetSupplierByName(txtDobavitellj.Text.Trim()));
+
+                if (model.Count > 1)
+                {
+                    PopupControlSearchSupplier.ShowOnPageLoad = true;
+                }
+                else if (model.Count == 1)
+                {
+                    AddSupplierToForm(model[0]);
+                    //GridLookupKontaktnaOSeba.DataBind();
+                }
+                else if (model.Count == 0)
+                {
+                    PopupControlSearchSupplier.ShowOnPageLoad = true;
+                }
+            }
+        }
+
+        private void AddSupplierToForm(ClientSimpleModel cSupplier)
+        {
+            ClientFullModel Supplier = CheckModelValidation(GetDatabaseConnectionInstance().GetClientByNameOrInsert(cSupplier.NazivPrvi));
+
+            selArtikel = GetInquiryDataProvider().GetInquiryPositionArtikelModel();
+            
+            if (selArtikel != null)
+            {
+                selArtikel.Dobavitelj = Supplier;
+                selArtikel.IzbranDobaviteljID = Supplier.idStranka;                
+                txtDobavitellj.Text = Supplier.NazivPrvi;                                
+            }
+            
         }
 
         protected void PopupControlSearchProduct_WindowCallback(object source, PopupWindowCallbackArgs e)
@@ -269,6 +325,12 @@ namespace GrafolitPDO.Pages.Order
             RemoveSession(Enums.InquirySession.SelectedSupplierPopup);
         }
 
+        protected void PopupControlSearchSupplier_WindowCallback(object source, PopupWindowCallbackArgs e)
+        {
+            RemoveSession(Enums.CommonSession.SearchString);
+            RemoveSession(Enums.InquirySession.SelectedSupplierPopup);
+            RemoveSession(Enums.InquirySession.SupplierListModel);
+        }
         protected void ComboBoxOddelek_DataBinding(object sender, EventArgs e)
         {
             List<DepartmentModel> types = CheckModelValidation(GetDatabaseConnectionInstance().GetDepartments());

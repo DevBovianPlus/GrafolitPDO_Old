@@ -205,7 +205,7 @@ namespace GrafolitPDO.Pages.Order
             string sKoda = GetInquiryDataProvider().GetInquiryStatus().ToString();
             //model.PovprasevanjeStatusID = GetOrderDataProvider().GetOrderStatuses() != null ? GetOrderDataProvider().GetOrderStatuses().Where(ps => ps.Koda == sKoda).FirstOrDefault().StatusPovprasevanjaID : 0;
             model.StatusID = GetOrderDataProvider().GetOrderStatuses() != null ? GetOrderDataProvider().GetOrderStatuses().Where(ps => ps.Koda == sKoda).FirstOrDefault().StatusPovprasevanjaID : 0;
-
+            model.StatusPovprasevanja = GetOrderDataProvider().GetOrderStatuses().Where(ps => ps.Koda == sKoda).FirstOrDefault();
 
             model.OpombeNarocilnica = MemoNotes.Text;
             model.DatumPredvideneDobave = DateEditSupplyDate.Date;
@@ -439,6 +439,10 @@ namespace GrafolitPDO.Pages.Order
                 SetSupllyDateToArtikles();
                 ASPxGridViewOrder.DataBind();
 
+            }
+            else if (e.Parameter == "RefreshOrderPositions")
+            {
+                ASPxGridViewOrder.DataBind();
             }
             else
             {

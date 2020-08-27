@@ -130,6 +130,7 @@
                     switch (sender) {
                         case 'OrderPos':
                             PopupControlOrderPos.Hide();
+                            OrderCallbackPanel.PerformCallback("RefreshOrderPositions");
                             gridOrder.Refresh();
                             break;
                     }
@@ -212,7 +213,7 @@
 
                                         <%--<dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaArtikelID" Visible="false" SortOrder="Descending" />--%>
 
-                                        <dx:GridViewDataTextColumn Caption="Izbran dobavitelj" FieldName="Dobavitelj.NazivPrvi" Width="7%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Caption="Izbran dobavitelj" FieldName="DobaviteljNaziv_PA" Width="7%" EditFormSettings-Visible="false" />
                                         <dx:GridViewDataTextColumn Caption="Kategorija" FieldName="KategorijaNaziv" Width="3%" EditFormSettings-Visible="false" />
                                         <dx:GridViewDataTextColumn Caption="Popraševanje naziv art." FieldName="Naziv" Width="12%" EditFormSettings-Visible="false" />
                                         <%--<dx:GridViewDataTextColumn Caption="Naziv artikla - PANTHEON" FieldName="IzbraniArtikelNaziv_P" Width="15%" EditFormSettings-Visible="true" />--%>

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GrafolitPDO.Pages.Order {
-    
-    
-    public partial class OrderPos_popup {
-        
+namespace GrafolitPDO.Pages.Order
+{
+
+
+    public partial class OrderPos_popup
+    {
+
         /// <summary>
         /// CallbackPanel control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxCallbackPanel CallbackPanel;
-        
+
         /// <summary>
         /// ASPxLabel14 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel14;
-        
+
         /// <summary>
         /// ComboBoxOddelek control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxComboBox ComboBoxOddelek;
-        
+
         /// <summary>
         /// ASPxLabel15 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel15;
-        
+
         /// <summary>
         /// CheckBoxPrikaziKupca control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxCheckBox CheckBoxPrikaziKupca;
-        
+
         /// <summary>
         /// ASPxLabel3 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel3;
-        
+
         /// <summary>
         /// txtName control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtName;
-        
+
         /// <summary>
         /// ASPxLabel1 control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel1;
-        
+
         /// <summary>
         /// txtDobavitellj control.
         /// </summary>
@@ -92,7 +94,25 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtDobavitellj;
-        
+
+        /// <summary>
+        /// btmSearchSupplier control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxButton btmSearchSupplier;
+
+        /// <summary>
+        /// PopupControlSearchSupplier control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxPopupControl PopupControlSearchSupplier;
+
         /// <summary>
         /// ASPxLabel9 control.
         /// </summary>
@@ -101,7 +121,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel9;
-        
+
         /// <summary>
         /// txtProductSearch control.
         /// </summary>
@@ -110,7 +130,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtProductSearch;
-        
+
         /// <summary>
         /// btnSearch control.
         /// </summary>
@@ -119,7 +139,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton btnSearch;
-        
+
         /// <summary>
         /// PopupControlSearchProduct control.
         /// </summary>
@@ -128,7 +148,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxPopupControl PopupControlSearchProduct;
-        
+
         /// <summary>
         /// ASPxLabel8 control.
         /// </summary>
@@ -137,7 +157,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel8;
-        
+
         /// <summary>
         /// txtPrice control.
         /// </summary>
@@ -146,7 +166,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtPrice;
-        
+
         /// <summary>
         /// ASPxLabel10 control.
         /// </summary>
@@ -155,7 +175,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel10;
-        
+
         /// <summary>
         /// txtOrderQ control.
         /// </summary>
@@ -164,7 +184,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtOrderQ;
-        
+
         /// <summary>
         /// ASPxLabel11 control.
         /// </summary>
@@ -173,7 +193,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel11;
-        
+
         /// <summary>
         /// txtEnotaMere control.
         /// </summary>
@@ -182,7 +202,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtEnotaMere;
-        
+
         /// <summary>
         /// ASPxLabel12 control.
         /// </summary>
@@ -191,7 +211,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel12;
-        
+
         /// <summary>
         /// txtRabate control.
         /// </summary>
@@ -200,7 +220,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtRabate;
-        
+
         /// <summary>
         /// ASPxLabel16 control.
         /// </summary>
@@ -209,7 +229,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel16;
-        
+
         /// <summary>
         /// DateEditSupplyDate control.
         /// </summary>
@@ -218,7 +238,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxDateEdit DateEditSupplyDate;
-        
+
         /// <summary>
         /// ASPxLabel13 control.
         /// </summary>
@@ -227,7 +247,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel13;
-        
+
         /// <summary>
         /// memOpombaNarocilnica control.
         /// </summary>
@@ -236,7 +256,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxMemo memOpombaNarocilnica;
-        
+
         /// <summary>
         /// ASPxLabel2 control.
         /// </summary>
@@ -245,7 +265,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel2;
-        
+
         /// <summary>
         /// txtQuantity1 control.
         /// </summary>
@@ -254,7 +274,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtQuantity1;
-        
+
         /// <summary>
         /// ASPxLabel4 control.
         /// </summary>
@@ -263,7 +283,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel4;
-        
+
         /// <summary>
         /// txtUnitOfMeasure1 control.
         /// </summary>
@@ -272,7 +292,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtUnitOfMeasure1;
-        
+
         /// <summary>
         /// ASPxLabel5 control.
         /// </summary>
@@ -281,7 +301,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel5;
-        
+
         /// <summary>
         /// txtQuantity2 control.
         /// </summary>
@@ -290,7 +310,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtQuantity2;
-        
+
         /// <summary>
         /// ASPxLabel6 control.
         /// </summary>
@@ -299,7 +319,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel6;
-        
+
         /// <summary>
         /// txtUnitOfMeasure2 control.
         /// </summary>
@@ -308,7 +328,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxTextBox txtUnitOfMeasure2;
-        
+
         /// <summary>
         /// ASPxLabel7 control.
         /// </summary>
@@ -317,7 +337,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxLabel ASPxLabel7;
-        
+
         /// <summary>
         /// MemoNotes control.
         /// </summary>
@@ -326,7 +346,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxMemo MemoNotes;
-        
+
         /// <summary>
         /// btnCancel control.
         /// </summary>
@@ -335,7 +355,7 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton btnCancel;
-        
+
         /// <summary>
         /// btnConfirm control.
         /// </summary>
@@ -344,15 +364,17 @@ namespace GrafolitPDO.Pages.Order {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton btnConfirm;
-        
+
         /// <summary>
         /// Master property.
         /// </summary>
         /// <remarks>
         /// Auto-generated property.
         /// </remarks>
-        public new OptimizacijaTransprotov.Popup Master {
-            get {
+        public new OptimizacijaTransprotov.Popup Master
+        {
+            get
+            {
                 return ((OptimizacijaTransprotov.Popup)(base.Master));
             }
         }
