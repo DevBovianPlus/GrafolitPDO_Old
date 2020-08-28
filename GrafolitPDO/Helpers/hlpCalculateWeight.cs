@@ -10,5 +10,6 @@ namespace GrafolitPDO.Helpers
         public decimal SizeA { get; set; }
         public decimal SizeB { get; set; }
         public decimal Weight { get; set; }
+
     }
 }

@@ -14326,3 +14326,475 @@ A network-related or instance-specific error occurred while establishing a conne
 27. 08. 2020 11:56:04 ROYALCOAT PREMIUM GLOSS 135G 64X90 SB
 27. 08. 2020 11:56:04 3
 27. 08. 2020 11:56:04 4
+27. 08. 2020 13:55:52 Enter function
+27. 08. 2020 13:55:52 1
+27. 08. 2020 13:55:52 2
+27. 08. 2020 13:55:52 dfdfasddfsa
+27. 08. 2020 13:55:52 3
+27. 08. 2020 13:55:52 4
+27. 08. 2020 13:56:22 Enter function
+27. 08. 2020 13:56:22 1
+27. 08. 2020 13:56:22 2
+27. 08. 2020 13:56:23 dfdfasddfsa
+27. 08. 2020 13:56:23 3
+27. 08. 2020 13:56:23 4
+27. 08. 2020 13:57:30 Enter function
+27. 08. 2020 13:57:30 1
+27. 08. 2020 13:57:30 2
+27. 08. 2020 13:57:30 dfdfasddfsa
+27. 08. 2020 13:57:30 3
+27. 08. 2020 13:57:30 4
+27. 08. 2020 14:06:29 Enter function
+27. 08. 2020 14:06:30 1
+27. 08. 2020 14:06:30 2
+27. 08. 2020 14:06:30 aaaaaaaaaaaaaaaaaaa
+27. 08. 2020 14:06:30 2
+27. 08. 2020 14:06:30 bbbbbbbbbbb
+27. 08. 2020 14:06:30 2
+27. 08. 2020 14:06:30 ccccccccccccccccccccc
+27. 08. 2020 14:06:30 3
+27. 08. 2020 14:06:30 4
+27. 08. 2020 14:07:04 Enter function
+27. 08. 2020 14:07:04 1
+27. 08. 2020 14:07:04 2
+27. 08. 2020 14:07:04 aaaaaaaaaaaaaaaaaaa
+27. 08. 2020 14:07:04 2
+27. 08. 2020 14:07:04 bbbbbbbbbbb
+27. 08. 2020 14:07:04 2
+27. 08. 2020 14:07:04 ccccccccccccccccccccc
+27. 08. 2020 14:07:04 3
+27. 08. 2020 14:07:04 4
+27. 08. 2020 14:09:16 Enter function
+27. 08. 2020 14:09:16 1
+27. 08. 2020 14:09:16 2
+27. 08. 2020 14:09:16 111111111111111111111111
+27. 08. 2020 14:09:16 2
+27. 08. 2020 14:09:16 22222222222222222222222222
+27. 08. 2020 14:09:16 2
+27. 08. 2020 14:09:16 3333333333333333
+27. 08. 2020 14:09:16 3
+27. 08. 2020 14:09:17 4
+27. 08. 2020 14:09:52 Enter function
+27. 08. 2020 14:09:52 1
+27. 08. 2020 14:09:52 2
+27. 08. 2020 14:09:52 111111111111111111111111
+27. 08. 2020 14:09:52 2
+27. 08. 2020 14:09:52 22222222222222222222222222
+27. 08. 2020 14:09:52 2
+27. 08. 2020 14:09:52 3333333333333333
+27. 08. 2020 14:09:52 3
+27. 08. 2020 14:09:52 4
+27. 08. 2020 14:13:33 Enter function
+27. 08. 2020 14:13:33 1
+27. 08. 2020 14:13:33 2
+27. 08. 2020 14:13:33 111111111111111111111111
+27. 08. 2020 14:13:33 2
+27. 08. 2020 14:13:33 22222222222222222222222222
+27. 08. 2020 14:13:34 2
+27. 08. 2020 14:13:34 3333333333333333
+27. 08. 2020 14:13:34 3
+27. 08. 2020 14:13:34 4
+27. 08. 2020 14:24:30 Enter function
+27. 08. 2020 14:24:30 1
+27. 08. 2020 14:24:30 2
+27. 08. 2020 14:24:30 gggggggggggggggggggg
+27. 08. 2020 14:24:30 2
+27. 08. 2020 14:24:30 bbbbbbbbbbbbbb
+27. 08. 2020 14:24:30 3
+27. 08. 2020 14:24:30 4
+27. 08. 2020 14:24:56 Enter function
+27. 08. 2020 14:24:57 1
+27. 08. 2020 14:24:57 2
+27. 08. 2020 14:24:57 gggggggggggggggggggg
+27. 08. 2020 14:24:57 2
+27. 08. 2020 14:24:57 bbbbbbbbbbbbbb
+27. 08. 2020 14:24:57 3
+27. 08. 2020 14:24:57 4
+27. 08. 2020 14:26:15 Enter function
+27. 08. 2020 14:26:15 1
+27. 08. 2020 14:26:15 2
+27. 08. 2020 14:26:15 gggggggggggggggggggg
+27. 08. 2020 14:26:15 2
+27. 08. 2020 14:26:15 bbbbbbbbbbbbbb
+27. 08. 2020 14:26:15 3
+27. 08. 2020 14:26:15 4
+27. 08. 2020 14:27:42 Enter function
+27. 08. 2020 14:27:42 1
+27. 08. 2020 14:27:42 2
+27. 08. 2020 14:27:42 gggggggggggggggggggg
+27. 08. 2020 14:27:42 2
+27. 08. 2020 14:27:43 bbbbbbbbbbbbbb
+27. 08. 2020 14:27:43 3
+27. 08. 2020 14:27:43 4
+27. 08. 2020 14:34:23 Enter function
+27. 08. 2020 14:34:24 1
+27. 08. 2020 14:34:24 2
+27. 08. 2020 14:34:24 mmmmmmmmmmmmmmmm
+27. 08. 2020 14:34:24 2
+27. 08. 2020 14:34:24 hhhhhhhhhhhhhhhhhhh
+27. 08. 2020 14:34:24 3
+27. 08. 2020 14:34:24 4
+27. 08. 2020 14:34:49 Enter function
+27. 08. 2020 14:34:49 1
+27. 08. 2020 14:34:49 2
+27. 08. 2020 14:34:49 mmmmmmmmmmmmmmmm
+27. 08. 2020 14:34:49 2
+27. 08. 2020 14:34:49 hhhhhhhhhhhhhhhhhhh
+27. 08. 2020 14:34:49 3
+27. 08. 2020 14:34:49 4
+27. 08. 2020 14:40:21 The request was aborted: The operation has timed out. System
+27. 08. 2020 14:41:25 Pozdravljeni! 
+ Uporabnik Boris Do je dne četrtek, 27. avgust 2020 ob 14:41:23 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_inquiry_searchsupplier_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_4omk0j5o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_inquiry_searchsupplier_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_4omk0j5o.0.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Inquiry/SearchSupplier_popup.aspx
+
+
+27. 08. 2020 14:42:12 Enter function
+27. 08. 2020 14:42:12 1
+27. 08. 2020 14:42:12 2
+27. 08. 2020 14:42:12 zzzzzzzzzzzzzzzz
+27. 08. 2020 14:42:12 2
+27. 08. 2020 14:42:12 eeeeeeeeeeeeeeeeeeez
+27. 08. 2020 14:42:12 3
+27. 08. 2020 14:42:12 4
+27. 08. 2020 14:43:06 Enter function
+27. 08. 2020 14:43:06 1
+27. 08. 2020 14:43:06 2
+27. 08. 2020 14:43:06 zzzzzzzzzzzzzzzz
+27. 08. 2020 14:43:06 2
+27. 08. 2020 14:43:06 eeeeeeeeeeeeeeeeeeez
+27. 08. 2020 14:43:06 3
+27. 08. 2020 14:43:06 4
+27. 08. 2020 14:47:14 Enter function
+27. 08. 2020 14:47:14 1
+27. 08. 2020 14:47:14 2
+27. 08. 2020 14:47:14 kkkkkkkkkkkkkkkkkkkk
+27. 08. 2020 14:47:14 2
+27. 08. 2020 14:47:14 ooooooooooooooooo
+27. 08. 2020 14:47:14 3
+27. 08. 2020 14:47:14 4
+27. 08. 2020 14:47:53 Enter function
+27. 08. 2020 14:47:53 1
+27. 08. 2020 14:47:53 2
+27. 08. 2020 14:47:53 kkkkkkkkkkkkkkkkkkkk
+27. 08. 2020 14:47:53 2
+27. 08. 2020 14:47:53 ooooooooooooooooo
+27. 08. 2020 14:47:53 3
+27. 08. 2020 14:47:53 4
+27. 08. 2020 14:53:27 Enter function
+27. 08. 2020 14:53:27 1
+27. 08. 2020 14:53:27 2
+27. 08. 2020 14:53:27 mmmmmmmmmmmm
+27. 08. 2020 14:53:27 2
+27. 08. 2020 14:53:27 ssssssssssss
+27. 08. 2020 14:53:27 3
+27. 08. 2020 14:53:27 4
+27. 08. 2020 15:02:02 Enter function
+27. 08. 2020 15:02:02 1
+27. 08. 2020 15:02:02 2
+27. 08. 2020 15:02:02 mmmmmmmmmmmm
+27. 08. 2020 15:02:02 2
+27. 08. 2020 15:02:02 ssssssssssss
+27. 08. 2020 15:02:02 3
+27. 08. 2020 15:02:02 4
+27. 08. 2020 15:04:55 The request was aborted: The operation has timed out. System
+27. 08. 2020 15:05:55 Enter function
+27. 08. 2020 15:05:55 1
+27. 08. 2020 15:05:55 2
+27. 08. 2020 15:05:55 mmmmmmmmmmmm
+27. 08. 2020 15:05:55 2
+27. 08. 2020 15:05:55 ssssssssssss
+27. 08. 2020 15:05:55 3
+27. 08. 2020 15:05:55 4
+27. 08. 2020 15:10:05 Enter function
+27. 08. 2020 15:10:05 1
+27. 08. 2020 15:10:05 2
+27. 08. 2020 15:10:05 ssssssssss
+27. 08. 2020 15:10:05 2
+27. 08. 2020 15:10:05 ffffffffffffffff
+27. 08. 2020 15:10:05 3
+27. 08. 2020 15:10:05 4
+27. 08. 2020 15:18:35 The operation has timed out System
+27. 08. 2020 15:22:43 Enter function
+27. 08. 2020 15:22:43 1
+27. 08. 2020 15:22:43 2
+27. 08. 2020 15:22:43 ssssssssss
+27. 08. 2020 15:22:43 2
+27. 08. 2020 15:22:43 ffffffffffffffff
+27. 08. 2020 15:22:43 3
+27. 08. 2020 15:22:43 4
+27. 08. 2020 15:26:05 Enter function
+27. 08. 2020 15:26:05 1
+27. 08. 2020 15:26:05 2
+27. 08. 2020 15:26:05 ssssssssss
+27. 08. 2020 15:26:05 2
+27. 08. 2020 15:26:05 ffffffffffffffff
+27. 08. 2020 15:26:05 3
+27. 08. 2020 15:26:05 4
+27. 08. 2020 15:27:13 Enter function
+27. 08. 2020 15:27:13 1
+27. 08. 2020 15:27:13 2
+27. 08. 2020 15:27:13 ssssssssss
+27. 08. 2020 15:27:13 2
+27. 08. 2020 15:27:13 ffffffffffffffff
+27. 08. 2020 15:27:13 3
+27. 08. 2020 15:27:13 4
+28. 08. 2020 07:33:46 Before Authenticate
+28. 08. 2020 07:33:46 Before SignIn
+28. 08. 2020 07:33:48 After SignIn
+28. 08. 2020 07:33:48 After Authenticate : True
+28. 08. 2020 07:35:48 Pozdravljeni! 
+ Uporabnik Boris Do je dne petek, 28. avgust 2020 ob 07:35:45 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_inquiry_searchsupplier_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_nxwolsmg.3.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) -------- System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.pages_inquiry_searchsupplier_popup_aspx.ProcessRequest(HttpContext context) in c:\Users\win10delo\AppData\Local\Temp\Temporary ASP.NET Files\vs\e7a24e55\61df394\App_Web_nxwolsmg.3.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously) -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.SearchSupplier_popup.btnConfirm_Click(Object sender, EventArgs e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\SearchSupplier_popup.aspx.cs:line 93
+   at DevExpress.Web.ASPxButton.OnClick(EventArgs e)
+   at DevExpress.Web.ASPxButton.RaisePostBackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Inquiry/SearchSupplier_popup.aspx
+
+
+28. 08. 2020 07:38:12 Enter function
+28. 08. 2020 07:38:12 1
+28. 08. 2020 07:38:12 2
+28. 08. 2020 07:38:12 kokokokokokoko
+28. 08. 2020 07:38:12 2
+28. 08. 2020 07:38:12 popopopopopopop
+28. 08. 2020 07:38:12 2
+28. 08. 2020 07:38:12 mmmmmm
+28. 08. 2020 07:38:12 3
+28. 08. 2020 07:38:12 4
+28. 08. 2020 07:39:23 Enter function
+28. 08. 2020 07:39:23 1
+28. 08. 2020 07:39:23 2
+28. 08. 2020 07:39:23 kokokokokokoko
+28. 08. 2020 07:39:23 2
+28. 08. 2020 07:39:23 popopopopopopop
+28. 08. 2020 07:39:23 2
+28. 08. 2020 07:39:23 mmmmmm
+28. 08. 2020 07:39:23 3
+28. 08. 2020 07:39:23 4
+28. 08. 2020 07:43:34 
+28. 08. 2020 07:45:01 Enter function
+28. 08. 2020 07:45:01 1
+28. 08. 2020 07:45:01 2
+28. 08. 2020 07:45:01 kokokokokokoko
+28. 08. 2020 07:45:01 2
+28. 08. 2020 07:45:01 popopopopopopop
+28. 08. 2020 07:45:01 2
+28. 08. 2020 07:45:01 mmmmmm
+28. 08. 2020 07:45:01 3
+28. 08. 2020 07:45:01 4
+28. 08. 2020 07:48:19 Enter function
+28. 08. 2020 07:48:19 1
+28. 08. 2020 07:48:19 2
+28. 08. 2020 07:48:19 wwwwwwwwwwwww
+28. 08. 2020 07:48:19 2
+28. 08. 2020 07:48:19 vccccccccccccccccccccc
+28. 08. 2020 07:48:19 3
+28. 08. 2020 07:48:19 4
+28. 08. 2020 07:49:52 Enter function
+28. 08. 2020 07:49:52 1
+28. 08. 2020 07:49:52 2
+28. 08. 2020 07:49:52 wwwwwwwwwwwww
+28. 08. 2020 07:49:52 2
+28. 08. 2020 07:49:52 vccccccccccccccccccccc
+28. 08. 2020 07:49:52 3
+28. 08. 2020 07:49:52 4
+28. 08. 2020 07:52:50 The remote server returned an error: (500) Internal Server Error. System
+28. 08. 2020 07:53:13 Enter function
+28. 08. 2020 07:53:13 1
+28. 08. 2020 07:53:13 2
+28. 08. 2020 07:53:13 wwwwwwwwwwwww
+28. 08. 2020 07:53:13 2
+28. 08. 2020 07:53:13 vccccccccccccccccccccc
+28. 08. 2020 07:53:13 3
+28. 08. 2020 07:53:13 4
+28. 08. 2020 07:59:37 Enter function
+28. 08. 2020 07:59:37 1
+28. 08. 2020 07:59:37 2
+28. 08. 2020 07:59:37 wwwwwwwwwwwww
+28. 08. 2020 07:59:37 2
+28. 08. 2020 07:59:37 vccccccccccccccccccccc
+28. 08. 2020 07:59:37 3
+28. 08. 2020 07:59:37 4
+28. 08. 2020 08:19:24 Enter function
+28. 08. 2020 08:19:24 1
+28. 08. 2020 08:19:24 2
+28. 08. 2020 08:19:24 ttttttttttt
+28. 08. 2020 08:19:24 2
+28. 08. 2020 08:19:24 sssssssssss
+28. 08. 2020 08:19:24 3
+28. 08. 2020 08:19:24 4
+28. 08. 2020 08:36:36 Enter function
+28. 08. 2020 08:36:36 1
+28. 08. 2020 08:36:36 2
+28. 08. 2020 08:36:36 ssssssssssss
+28. 08. 2020 08:36:36 2
+28. 08. 2020 08:36:36 ccccccccccccc
+28. 08. 2020 08:36:36 3
+28. 08. 2020 08:36:36 4
+28. 08. 2020 08:37:19 Enter function
+28. 08. 2020 08:37:19 1
+28. 08. 2020 08:37:19 2
+28. 08. 2020 08:37:19 ssssssssssss
+28. 08. 2020 08:37:19 2
+28. 08. 2020 08:37:19 ccccccccccccc
+28. 08. 2020 08:37:19 3
+28. 08. 2020 08:37:19 4
+28. 08. 2020 08:43:13 Enter function
+28. 08. 2020 08:43:13 1
+28. 08. 2020 08:43:13 2
+28. 08. 2020 08:43:13 ssssssssssss
+28. 08. 2020 08:43:13 2
+28. 08. 2020 08:43:13 ccccccccccccc
+28. 08. 2020 08:43:13 3
+28. 08. 2020 08:43:13 4
+28. 08. 2020 08:44:54 Enter function
+28. 08. 2020 08:44:54 1
+28. 08. 2020 08:44:54 2
+28. 08. 2020 08:44:54 ssssssssssss
+28. 08. 2020 08:44:54 2
+28. 08. 2020 08:44:54 ccccccccccccc
+28. 08. 2020 08:44:54 3
+28. 08. 2020 08:44:54 4
+28. 08. 2020 08:47:27 Enter function
+28. 08. 2020 08:47:27 1
+28. 08. 2020 08:47:27 2
+28. 08. 2020 08:47:27 ssssssssssss
+28. 08. 2020 08:47:27 2
+28. 08. 2020 08:47:27 ccccccccccccc
+28. 08. 2020 08:47:27 3
+28. 08. 2020 08:47:27 4
+28. 08. 2020 08:57:29 Enter function
+28. 08. 2020 08:57:29 1
+28. 08. 2020 08:57:29 2
+28. 08. 2020 08:57:29 ssssssssssss
+28. 08. 2020 08:57:29 2
+28. 08. 2020 08:57:29 ccccccccccccc
+28. 08. 2020 08:57:29 3
+28. 08. 2020 08:57:29 4
+28. 08. 2020 09:00:00 The operation has timed out System
+28. 08. 2020 09:12:09 Enter function
+28. 08. 2020 09:12:09 1
+28. 08. 2020 09:12:09 2
+28. 08. 2020 09:12:09 ssssssssssss
+28. 08. 2020 09:12:09 2
+28. 08. 2020 09:12:09 ccccccccccccc
+28. 08. 2020 09:12:09 3
+28. 08. 2020 09:12:09 4
+28. 08. 2020 10:37:32 Enter function
+28. 08. 2020 10:37:32 1
+28. 08. 2020 10:37:32 2
+28. 08. 2020 10:37:32 PREMIUM GLOSS 90G 64X90
+28. 08. 2020 10:37:32 2
+28. 08. 2020 10:37:32 PREMIUM SILK 90G 64X90
+28. 08. 2020 10:37:32 3
+28. 08. 2020 10:37:32 4
+28. 08. 2020 10:38:01 Enter function
+28. 08. 2020 10:38:01 1
+28. 08. 2020 10:38:01 2
+28. 08. 2020 10:38:01 PREMIUM GLOSS 90G 64X90
+28. 08. 2020 10:38:01 2
+28. 08. 2020 10:38:01 PREMIUM SILK 90G 64X90
+28. 08. 2020 10:38:01 3
+28. 08. 2020 10:38:01 4

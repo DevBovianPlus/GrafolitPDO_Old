@@ -4,7 +4,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContentHolder" runat="server">
     <script type="text/javascript">
-        var submitConfirmed = false;
+        var submitConfirmed = false; 
 
         $(document).ready(function () {
 
@@ -124,6 +124,7 @@
                         case 'InquiryPos':
                             PopupControlInquiryPos.Hide();
                             gridInquiryPosition.Refresh();
+                            InquiryCallbackPanel.PerformCallback("InquiryPosReturn");
                             break;
                     }
                     break;

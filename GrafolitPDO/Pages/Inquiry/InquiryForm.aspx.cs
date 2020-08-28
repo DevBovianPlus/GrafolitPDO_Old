@@ -361,6 +361,15 @@ namespace GrafolitPDO.Pages.Inquiry
                 //v sejo si zapolnimo vrednost, ki jo ob ponovnem nalaganju strani preverimo in po potrebi odpremo popup
                 AddValueToSession(Enums.CommonSession.StayOnFormAndOpenPopup, true);
             }
+            else if (e.Parameter == "InquiryPosReturn")
+            {
+                model = CheckModelValidation(GetDatabaseConnectionInstance().GetInquiryByID(inquiryID, false, 0));
+                GetInquiryDataProvider().SetInquiryModel(model);
+                if (model != null)
+                {
+                    ASPxGridViewInquiryPosition.DataBind();
+                }
+            }
             else
             {
                 //če je status povpraševanje oddano (ODDANO), potem uporabniku ne dovolimo več dodajanja novih pozicij 

@@ -45,6 +45,16 @@
             CallbackPanel.PerformCallback("StartSearchPopup");
         }
 
+        function btnSearchSupplier_Click(s, e) {
+            var process = true;
+
+            if (process) {
+                CallbackPanel.PerformCallback("StartSearchSupplierPopup");
+            }
+            else
+                e.processOnServer = false;
+        }
+
         function txtProductSearch_KeyUp(s, e) {
             if (s.GetText().length >= 3)
                 btnSearch.SetEnabled(true);
@@ -69,6 +79,12 @@
                             txtProductSearch.Focus();
                             CallbackPanel.PerformCallback("ProductSelected");
                             break;
+                        case 'SupplierSearch':
+                            var seleSupVal = '<%= GetStringValueFromSession(GrafolitPDO.Common.Enums.InquirySession.ReturnSupplierVal) %>';
+                            txtDobavitelj.SetText(seleSupVal);                            
+                            PopupControlSearchSupplier.Hide();
+                            CallbackPanel.PerformCallback("SupplierSelected");                                                                                 
+                            break;
                     }
                     break;
                 case 'Preklici':
@@ -77,6 +93,11 @@
                             PopupControlSearchProduct.Hide();
                             btnSearch.SetEnabled(true);
                             txtProductSearch.Focus();
+                            break;
+                        case 'SupplierSearch':
+                            PopupControlSearchSupplier.Hide();
+                            //btnSearch.SetEnabled(true);
+                            txtDobavitelj.Focus();
                             break;
                     }
                     break;
@@ -150,6 +171,25 @@
                                     <FocusedStyle CssClass="focus-text-box-input"></FocusedStyle>
                                 </dx:ASPxTextBox>
                             </div>
+                            <div class="col-3 p-0">
+                                <dx:ASPxButton ID="btmSearchSupplier" runat="server" AutoPostBack="false" ClientInstanceName="btnSearch"
+                                    Height="25" Width="50" UseSubmitBehavior="false">
+                                    <Paddings Padding="0" />
+                                    <Image Url="../../Images/search.png" UrlHottracked="../../Images/searchHover.png" UrlDisabled="../../Images/searchDisabled.png" />
+                                    <ClientSideEvents Click="btnSearchSupplier_Click" />
+                                </dx:ASPxButton>
+                            </div>
+                            <dx:ASPxPopupControl ID="PopupControlSearchSupplier" runat="server" ContentUrl="../Inquiry/SearchSupplier_popup.aspx"
+                                ClientInstanceName="PopupControlSearchSupplier" Modal="True" HeaderText="DOBAVITELJ"
+                                CloseAction="CloseButton" Width="800px" Height="635px" PopupHorizontalAlign="WindowCenter"
+                                PopupVerticalAlign="WindowCenter" PopupAnimationType="Fade" AllowDragging="true" ShowSizeGrip="true"
+                                AllowResize="true" ShowShadow="true"
+                                OnWindowCallback="PopupControlSearchSupplier_WindowCallback">
+                                <ClientSideEvents CloseButtonClick="OnPopupCloseButtonClick" />
+                                <ContentStyle BackColor="#F7F7F7">
+                                    <Paddings PaddingBottom="0px" PaddingLeft="0px" PaddingRight="0px" PaddingTop="0px"></Paddings>
+                                </ContentStyle>
+                            </dx:ASPxPopupControl>
                         </div>
                     </div>
                 </div>
@@ -264,7 +304,7 @@
                                     ClientInstanceName="DateEditSupplyDate">
                                     <FocusedStyle CssClass="focus-text-box-input" />
                                     <CalendarProperties TodayButtonText="Danes" ClearButtonText="Izbriši" />
-                                    <DropDownButton Visible="true"></DropDownButton>                                    
+                                    <DropDownButton Visible="true"></DropDownButton>
                                 </dx:ASPxDateEdit>
                             </div>
                         </div>
