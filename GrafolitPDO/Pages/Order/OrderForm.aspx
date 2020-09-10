@@ -220,7 +220,7 @@
 
                                         <dx:GridViewDataComboBoxColumn FieldName="IzbraniArtikelNaziv_P" Caption="Naziv artikla - PANTHEON" Width="12%" EditFormSettings-Visible="true">
                                             <PropertiesComboBox EnableSynchronization="false" IncrementalFilteringMode="StartsWith"
-                                                ValueField="TempID" TextField="Naziv" ValueType="System.Int32" DataSecurityMode="Strict">
+                                                ValueField="TempID" TextField="Naziv" ValueType="System.Int32" DataSecurityMode="Default">
                                                 <%--<ClientSideEvents EndCallback="onCityEndCallback" />--%>
                                             </PropertiesComboBox>
                                         </dx:GridViewDataComboBoxColumn>

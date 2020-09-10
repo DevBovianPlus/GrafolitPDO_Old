@@ -288,12 +288,12 @@ namespace GrafolitPDO.Pages.Order
                     hlpCalculateWeight hw = GetCalculateWeight(productsPantheon);
                     decimal calc = CalculateSheetInKg(hw, CommonMethods.ParseDecimal(productsPantheon.Kolicina1));
                     if (calc > 0)
-                    { 
-                    productsPantheon.EnotaMere1 = "KG";
-                    productsPantheon.Kolicina2 = productsPantheon.Kolicina1;
+                    {
+                        productsPantheon.EnotaMere1 = "KG";
+                        productsPantheon.Kolicina2 = productsPantheon.Kolicina1;
 
-                    productsPantheon.Kolicina1 = Convert.ToDecimal(calc);
-                    productsPantheon.EnotaMere2 = "POL";
+                        productsPantheon.Kolicina1 = Convert.ToDecimal(calc);
+                        productsPantheon.EnotaMere2 = "POL";
                     }
                 }
                 cmb.DataSourceID = null;
@@ -607,13 +607,15 @@ namespace GrafolitPDO.Pages.Order
         {
             if (model == null)
                 model = GetInquiryDataProvider().GetInquiryModel();
-
-            foreach (var item in model.PovprasevanjePozicijaArtikel)
+            if (model.PovprasevanjePozicijaArtikel != null)
             {
-                item.IzbranArtikel = false;
-            }
+                foreach (var item in model.PovprasevanjePozicijaArtikel)
+                {
+                    item.IzbranArtikel = false;
+                }
 
-            GetInquiryDataProvider().SetInquiryModel(model);
+                GetInquiryDataProvider().SetInquiryModel(model);
+            }
         }
 
         public void CheckIfPolePozicija()
@@ -633,7 +635,7 @@ namespace GrafolitPDO.Pages.Order
 
                     item.EnotaMere1 = "KG";
                     item.Kolicina2 = item.Kolicina1;
-                   
+
                     item.Kolicina1 = Convert.ToDecimal(calc);
                     item.EnotaMere2 = "POL";
 
@@ -667,7 +669,7 @@ namespace GrafolitPDO.Pages.Order
             if (ipa.IzbraniArtikelNaziv_P != null)
             {
                 ipa.IzbraniArtikelNaziv_P = ipa.IzbraniArtikelNaziv_P.ToUpper();
-                
+
                 string[] split = ipa.IzbraniArtikelNaziv_P.Split(' ');
                 foreach (var item in split)
                 {
@@ -684,7 +686,7 @@ namespace GrafolitPDO.Pages.Order
                     // size
                     if (item.Contains("x") || item.Contains("X"))
                     {
-                        
+
                         string[] splSize = item.Split('X');
                         if (splSize.Length == 2 && CommonMethods.IsNumeric(splSize[0].ToString()) && CommonMethods.IsNumeric(splSize[1].ToString()))
                         {
