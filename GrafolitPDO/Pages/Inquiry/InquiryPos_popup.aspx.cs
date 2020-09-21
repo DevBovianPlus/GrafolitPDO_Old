@@ -254,7 +254,7 @@ namespace GrafolitPDO.Pages.Inquiry
                         {
                             GridLookupKontaktnaOSeba.GridView.Selection.SelectRowByKey(cpmItem.idKontaktneOsebe);
                         }
-                        
+
                     }
                 }
             }
@@ -395,8 +395,10 @@ namespace GrafolitPDO.Pages.Inquiry
                 model = new InquiryPositionModel();
 
                 model.PovprasevanjePozicijaID = 0;
-                model.PovprasevanjeID = GetInquiryDataProvider().GetInquiryModel().PovprasevanjeID;
-
+                if (GetInquiryDataProvider().GetInquiryModel() != null)
+                {
+                    model.PovprasevanjeID = GetInquiryDataProvider().GetInquiryModel().PovprasevanjeID;
+                }
                 model.tsIDOsebe = PrincipalHelper.GetUserPrincipal().ID;
                 model.tsUpdateUserID = PrincipalHelper.GetUserPrincipal().ID;
 

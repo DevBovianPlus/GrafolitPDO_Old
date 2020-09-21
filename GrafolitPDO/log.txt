@@ -14815,3 +14815,57 @@ http://localhost:43428/Pages/Inquiry/SearchSupplier_popup.aspx
 5. 09. 2020 11:20:52 SIRIO PEARL POLAR DAWN 125G 72X102 SB
 5. 09. 2020 11:20:52 3
 5. 09. 2020 11:20:52 4
+21. 09. 2020 11:35:53 Before Authenticate
+21. 09. 2020 11:35:54 Before SignIn
+21. 09. 2020 11:36:01 After SignIn
+21. 09. 2020 11:36:01 After Authenticate : True
+21. 09. 2020 11:39:04 Enter function
+21. 09. 2020 11:39:04 1
+21. 09. 2020 11:39:04 2
+21. 09. 2020 11:39:04 TERRAPRINT GLOSS 70G 100X70 BB
+21. 09. 2020 11:39:04 2
+21. 09. 2020 11:39:04 TERRAPRINT GLOSS 70G 88X64 BB
+21. 09. 2020 11:39:04 3
+21. 09. 2020 11:39:04 4
+21. 09. 2020 11:58:49 The request was aborted: The operation has timed out. System
+21. 09. 2020 12:02:32 Enter function
+21. 09. 2020 12:02:32 1
+21. 09. 2020 12:02:32 2
+21. 09. 2020 12:02:32 TERRAPRINT GLOSS 70G 88X64 BB
+21. 09. 2020 12:02:32 2
+21. 09. 2020 12:02:32 TERRAPRINT GLOSS 70G 100X70 BB
+21. 09. 2020 12:02:32 3
+21. 09. 2020 12:02:32 4
+21. 09. 2020 12:04:12 The request was aborted: The operation has timed out. System
+21. 09. 2020 12:09:56 The operation has timed out System
+21. 09. 2020 12:11:36 The request was aborted: The operation has timed out. System
+21. 09. 2020 12:11:47 The request was aborted: The operation has timed out. System
+21. 09. 2020 13:53:55 Enter function
+21. 09. 2020 13:53:55 1
+21. 09. 2020 13:53:55 2
+21. 09. 2020 13:53:55 TERRAPRINT GLOSS 70G 100X70 BB
+21. 09. 2020 13:53:55 2
+21. 09. 2020 13:53:55 TERRAPRINT GLOSS 70G 88X64 BB
+21. 09. 2020 13:53:55 3
+21. 09. 2020 13:53:55 4
+21. 09. 2020 14:09:42 The request was aborted: The operation has timed out. System
+21. 09. 2020 14:12:34 Pozdravljeni! 
+ Uporabnik Boris Do je dne ponedeljek, 21. september 2020 ob 14:12:32 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Inquiry.InquiryPos_popup.CallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Inquiry\InquiryPos_popup.aspx.cs:line 428
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Inquiry/InquiryPos_popup.aspx
+
+
+21. 09. 2020 14:29:41 Enter function
+21. 09. 2020 14:29:41 1
+21. 09. 2020 14:29:41 2
+21. 09. 2020 14:29:41 TERRAPRINT GLOSS 70G 88X64 BB
+21. 09. 2020 14:29:41 3
+21. 09. 2020 14:29:41 4

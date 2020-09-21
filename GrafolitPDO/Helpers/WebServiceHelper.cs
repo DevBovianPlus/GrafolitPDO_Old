@@ -220,6 +220,7 @@ namespace GrafolitPDO.Helpers
 
         public static string GetClientByNameOrInsert(string clientName)
         {
+            clientName = clientName.IndexOf("&") > 0 ? clientName.Replace("&", "{*}") : clientName;
             return WebServiceClientURL + "GetClientByNameOrInsert?clientName=" + clientName;
         }
         #endregion
@@ -347,6 +348,7 @@ namespace GrafolitPDO.Helpers
 
         public static string GetSupplierByName(string name)
         {
+            name = name.IndexOf("&") > 0 ? name.Replace("&", "{*}") : name;
             return WebServiceInquiryURL + "GetSupplierByName?name=" + name;
         }
 
