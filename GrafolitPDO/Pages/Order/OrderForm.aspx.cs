@@ -132,15 +132,14 @@ namespace GrafolitPDO.Pages.Order
                 btnCreateOrder.ClientVisible = true;
                 //ASPxGridViewOrder.SettingsEditing.Mode = GridViewEditingMode.EditFormAndDisplayRow;
 
-                ASPxGridViewOrder.Columns["KolicinavKG"].Visible = true;
+                //ASPxGridViewOrder.Columns["KolicinavKG"].Visible = true;
 
                 //ASPxGridViewOrder.Columns["NabCena"].Visible = true;
-                ASPxGridViewOrder.Columns["EnotaM"].Visible = true;
-                ASPxGridViewOrder.Columns["Rabat"].Visible = true;
-                ASPxGridViewOrder.Columns["Kol1"].Visible = false;
-                ASPxGridViewOrder.Columns["EM1"].Visible = false;
-                ASPxGridViewOrder.Columns["Kol2"].Visible = false;
-                ASPxGridViewOrder.Columns["EM2"].Visible = false;
+                //ASPxGridViewOrder.Columns["EnotaM"].Visible = true;                
+                //ASPxGridViewOrder.Columns["KolicinavKG"].Visible = false;
+                //ASPxGridViewOrder.Columns["EnotaMere"].Visible = false;
+                //ASPxGridViewOrder.Columns["KolicinaVPOL"].Visible = false;
+                //ASPxGridViewOrder.Columns["KolicinaVPOL"].Visible = false;
                 //ASPxGridViewOrder.Columns["Cena"].Visible = false;
             }
 
@@ -151,12 +150,12 @@ namespace GrafolitPDO.Pages.Order
                 ASPxGridViewOrder.Columns[1].Visible = false;
                 ASPxGridViewOrder.Columns["KolicinavKG"].Visible = true;
                 //ASPxGridViewOrder.Columns["NabCena"].Visible = true;
-                ASPxGridViewOrder.Columns["EnotaM"].Visible = true;
-                ASPxGridViewOrder.Columns["Rabat"].Visible = true;
-                ASPxGridViewOrder.Columns["Kol1"].Visible = false;
-                ASPxGridViewOrder.Columns["EM1"].Visible = false;
-                ASPxGridViewOrder.Columns["Kol2"].Visible = false;
-                ASPxGridViewOrder.Columns["EM2"].Visible = false;
+                //ASPxGridViewOrder.Columns["EnotaM"].Visible = true;
+                //ASPxGridViewOrder.Columns["Rabat"].Visible = true;
+                //ASPxGridViewOrder.Columns["Kol1"].Visible = false;
+                //ASPxGridViewOrder.Columns["EM1"].Visible = false;
+                //ASPxGridViewOrder.Columns["Kol2"].Visible = false;
+                //ASPxGridViewOrder.Columns["EM2"].Visible = false;
                 //ASPxGridViewOrder.Columns["Cena"].Visible = false;
             }
 
@@ -285,15 +284,15 @@ namespace GrafolitPDO.Pages.Order
 
                 if (productsPantheon.EnotaMere1.ToString().ToUpper() == "POL")
                 {
-                    hlpCalculateWeight hw = GetCalculateWeight(productsPantheon);
-                    decimal calc = CalculateSheetInKg(hw, CommonMethods.ParseDecimal(productsPantheon.Kolicina1));
+                    hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(productsPantheon.IzbraniArtikelNaziv_P);
+                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(productsPantheon.Kolicina1));
                     if (calc > 0)
                     {
                         productsPantheon.EnotaMere1 = "KG";
                         productsPantheon.Kolicina2 = productsPantheon.Kolicina1;
 
                         productsPantheon.Kolicina1 = Convert.ToDecimal(calc);
-                        productsPantheon.EnotaMere2 = "POL";
+                        productsPantheon.EnotaMere2 = "POL";                        
                     }
                 }
                 cmb.DataSourceID = null;
@@ -337,8 +336,8 @@ namespace GrafolitPDO.Pages.Order
 
                 if (selArtikel != null)
                 {
-                    selArtikel.KolicinavKG = selArtikel.Kolicina1;
-                    selArtikel.EnotaMere = selArtikel.EnotaMere1;
+                    //selArtikel.KolicinavKG = selArtikel.Kolicina1;
+                    //selArtikel.EnotaMere = selArtikel.EnotaMere1;
                     selArtikel.IzbranArtikel = true;
                 }
             }
@@ -532,6 +531,8 @@ namespace GrafolitPDO.Pages.Order
                     pos.tsUpdate = inqPos.tsUpdate;
                     pos.tsUpdateUserID = inqPos.tsUpdateUserID;
                     pos.KolicinavKG = inqPos.KolicinavKG;
+                    pos.KolicinaVPOL = inqPos.KolicinaVPOL;
+                    pos.NarEnotaMere2 = inqPos.NarEnotaMere2;
                     pos.Rabat = inqPos.Rabat;
                     pos.OddelekID = inqPos.OddelekID;
                     pos.PrikaziKupca = inqPos.PrikaziKupca;
@@ -627,9 +628,9 @@ namespace GrafolitPDO.Pages.Order
             {
                 if (item.EnotaMere1.ToString().ToUpper() == "POL")
                 {
-                    hlpCalculateWeight hw = GetCalculateWeight(item);
+                    hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(item.IzbraniArtikelNaziv_P);
 
-                    decimal calc = CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.Kolicina1));
+                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.Kolicina1));
 
                     if (calc == 0) continue;
 
@@ -646,64 +647,8 @@ namespace GrafolitPDO.Pages.Order
             GetInquiryDataProvider().SetInquiryModel(model);
         }
 
-        private decimal CalculateSheetInKg(hlpCalculateWeight hw, decimal qnt)
-        {
-            decimal calc = 0;
-
-            if (hw != null && hw.Weight > 0 && hw.SizeA > 0 && hw.SizeB > 0)
-            {
-                decimal pG = hw.Weight * (decimal)0.001;
-                decimal sA = hw.SizeA * (decimal)0.01;
-                decimal sB = hw.SizeB * (decimal)0.01;
-
-                calc = pG * sA * sB * qnt;
-            }
-
-            return Convert.ToDecimal(calc);
-        }
-
-        private hlpCalculateWeight GetCalculateWeight(InquiryPositionArtikelModel ipa)
-        {
-            hlpCalculateWeight hlpWeight = new hlpCalculateWeight();
-
-            if (ipa.IzbraniArtikelNaziv_P != null)
-            {
-                ipa.IzbraniArtikelNaziv_P = ipa.IzbraniArtikelNaziv_P.ToUpper();
-
-                string[] split = ipa.IzbraniArtikelNaziv_P.Split(' ');
-                foreach (var item in split)
-                {
-                    // weight
-                    if (item.Contains("g") || item.Contains("G"))
-                    {
-                        string[] splWeight = item.Split('G');
-                        if (splWeight.Length == 2 && CommonMethods.IsNumeric(splWeight[0].ToString()))
-                        {
-                            hlpWeight.Weight = Convert.ToInt32(splWeight[0]);
-                        }
-                    }
-
-                    // size
-                    if (item.Contains("x") || item.Contains("X"))
-                    {
-
-                        string[] splSize = item.Split('X');
-                        if (splSize.Length == 2 && CommonMethods.IsNumeric(splSize[0].ToString()) && CommonMethods.IsNumeric(splSize[1].ToString()))
-                        {
-                            string sSize1 = splSize[0];
-                            string sSize2 = splSize[1];
-
-                            sSize1 = sSize1.Replace(",", ".");
-                            sSize2 = sSize2.Replace(",", ".");
-
-                            hlpWeight.SizeA = CommonMethods.ParseDecimal(sSize1);
-                            hlpWeight.SizeB = CommonMethods.ParseDecimal(sSize2);
-                        }
-                    }
-                }
-            }
-            return hlpWeight;
-        }
+       
+      
 
         public void SetSelectedPozicija(int PozicijaID)
         {

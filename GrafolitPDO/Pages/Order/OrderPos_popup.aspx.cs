@@ -49,7 +49,7 @@ namespace GrafolitPDO.Pages.Order
                         if (selArtikel != null)
                         {
                             selPosition = GetInquiryDataProvider().GetInquiryModel().PovprasevanjePozicija.Where(pp => pp.PovprasevanjePozicijaID == selArtikel.PovprasevanjePozicijaID).FirstOrDefault();
-                        
+
                             GetInquiryDataProvider().SetInquiryPositionArtikelModel(selArtikel);
                         }
                         if (selPosition != null)
@@ -73,7 +73,7 @@ namespace GrafolitPDO.Pages.Order
 
                         if (SessionHasValue("PageName"))
                         {
-                           string sPageName = GetValueFromSession("PageName").ToString();
+                            string sPageName = GetValueFromSession("PageName").ToString();
                             if (sPageName == "Order/OrderTable.aspx")
                             {
                                 btnConfirm.ClientEnabled = false;
@@ -101,7 +101,7 @@ namespace GrafolitPDO.Pages.Order
                 txtName.Text = selArtikel.Naziv;
                 txtDobavitellj.Text = selArtikel.DobaviteljNaziv_PA != null ? selArtikel.DobaviteljNaziv_PA : "";
                 txtProductSearch.Text = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
-                txtOrderQ.Text = (selArtikel.KolicinavKG > 0)  ? selArtikel.KolicinavKG.ToString() : selArtikel.Kolicina1.ToString();
+                txtOrderQ.Text = (selArtikel.KolicinavKG > 0) ? selArtikel.KolicinavKG.ToString() : selArtikel.Kolicina1.ToString();
                 if (selArtikel.ArtikelCena > 0)
                     txtPrice.Text = selArtikel.ArtikelCena.ToString("N3");
 
@@ -109,7 +109,7 @@ namespace GrafolitPDO.Pages.Order
                 txtUnitOfMeasure1.Text = selArtikel.EnotaMere1;
                 txtQuantity2.Text = selArtikel.Kolicina2.ToString("N2");
                 txtUnitOfMeasure2.Text = selArtikel.EnotaMere2;
-                memOpombaNarocilnica.Text = selArtikel.Opombe; 
+                memOpombaNarocilnica.Text = selArtikel.Opombe;
 
 
                 ComboBoxOddelek.SelectedIndex = model.OddelekID > 0 ? ComboBoxOddelek.Items.IndexOfValue(model.OddelekID.ToString()) : 0;
@@ -121,10 +121,10 @@ namespace GrafolitPDO.Pages.Order
                 DateEditSupplyDate.Value = (selArtikel.DatumDobavePos != null) ? selArtikel.DatumDobavePos.ToString() : "";
             }
 
-           
+
         }
 
-       
+
 
         private bool AddOrEditEntityObject(bool add = false)
         {
@@ -134,17 +134,36 @@ namespace GrafolitPDO.Pages.Order
             model.tsUpdateUserID = PrincipalHelper.GetUserPrincipal().ID;
             selArtikel = GetInquiryDataProvider().GetInquiryPositionArtikelModel();
             if (selArtikel != null)
-            {                
+            {
                 var selectedProduct = GetOrderDataProvider().GetSelectedSearchedProduct();
                 if (selectedProduct != null)
                 {
-                    selArtikel.IzbraniArtikelNaziv_P = selectedProduct.Naziv;
+                    
                     selArtikel.IzbraniArtikelIdent_P = selectedProduct.StevilkaArtikel;
                 }
+                string sCalcProductNaziv = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
+                if (txtEnotaMere.Text.ToUpper() == "POL")
+                {
+                    hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(sCalcProductNaziv);
 
+                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(txtOrderQ.Text));
+
+                    if (calc > 0)
+                    {
+                        selArtikel.KolicinavKG = Convert.ToDecimal(calc);
+                        selArtikel.EnotaMere = "KG";
+                    }
+                    selArtikel.KolicinaVPOL = Convert.ToDecimal(txtOrderQ.Text);
+                    selArtikel.NarEnotaMere2 = "POL";
+                }
+                else 
+                {
+                    selArtikel.KolicinavKG = CommonMethods.ParseDecimal(txtOrderQ.Text);
+                    selArtikel.EnotaMere = txtEnotaMere.Text;
+                }
                 selArtikel.ArtikelCena = CommonMethods.ParseDecimal(txtPrice.Text);
-                selArtikel.KolicinavKG = CommonMethods.ParseDecimal(txtOrderQ.Text);
-                selArtikel.EnotaMere = txtEnotaMere.Text;
+                
+                
                 selArtikel.Rabat = CommonMethods.ParseDecimal(txtRabate.Text) > 0 ? CommonMethods.ParseDecimal(txtRabate.Text) : 0;
                 selArtikel.PrikaziKupca = CheckBoxPrikaziKupca.Checked;
 
@@ -152,7 +171,7 @@ namespace GrafolitPDO.Pages.Order
                 selArtikel.Opombe = MemoNotes.Text;
                 selArtikel.OpombaNarocilnica = memOpombaNarocilnica.Text;
                 selArtikel.PrikaziKupca = CheckBoxPrikaziKupca.Checked;
-                selArtikel.DatumDobavePos = Convert.ToDateTime (DateEditSupplyDate.Value);
+                selArtikel.DatumDobavePos = Convert.ToDateTime(DateEditSupplyDate.Value);
 
                 selArtikel.DobaviteljNaziv_PA = txtDobavitellj.Text;
                 ClientFullModel Supplier = CheckModelValidation(GetDatabaseConnectionInstance().GetClientByNameOrInsert(selArtikel.DobaviteljNaziv_PA));
@@ -169,7 +188,7 @@ namespace GrafolitPDO.Pages.Order
                 model = CheckModelValidation(GetDatabaseConnectionInstance().SaveInquiryPurchase(model));
             }
 
-                return true;
+            return true;
 
         }
 
@@ -308,14 +327,14 @@ namespace GrafolitPDO.Pages.Order
             ClientFullModel Supplier = CheckModelValidation(GetDatabaseConnectionInstance().GetClientByNameOrInsert(cSupplier.NazivPrvi));
 
             selArtikel = GetInquiryDataProvider().GetInquiryPositionArtikelModel();
-            
+
             if (selArtikel != null)
             {
                 selArtikel.Dobavitelj = Supplier;
-                selArtikel.IzbranDobaviteljID = Supplier.idStranka;                
-                txtDobavitellj.Text = Supplier.NazivPrvi;                                
+                selArtikel.IzbranDobaviteljID = Supplier.idStranka;
+                txtDobavitellj.Text = Supplier.NazivPrvi;
             }
-            
+
         }
 
         protected void PopupControlSearchProduct_WindowCallback(object source, PopupWindowCallbackArgs e)

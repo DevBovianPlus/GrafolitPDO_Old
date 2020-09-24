@@ -1,4 +1,5 @@
-﻿using GrafolitPDO.Helpers;
+﻿using DatabaseWebService.ModelsPDO.Inquiry;
+using GrafolitPDO.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -259,6 +260,66 @@ namespace GrafolitPDO.Common
 
                 return ms.ToArray();
             }
+        }
+
+        public static decimal CalculateSheetInKg(hlpCalculateWeight hw, decimal qnt)
+        {
+            decimal calc = 0;
+
+            if (hw != null && hw.Weight > 0 && hw.SizeA > 0 && hw.SizeB > 0)
+            {
+                decimal pG = hw.Weight * (decimal)0.001;
+                decimal sA = hw.SizeA * (decimal)0.01;
+                decimal sB = hw.SizeB * (decimal)0.01;
+
+                calc = pG * sA * sB * qnt;
+            }
+
+            return Convert.ToDecimal(calc);
+        }
+
+
+        public static hlpCalculateWeight GetCalculateWeight(string sNazivArtikla)
+        {
+            hlpCalculateWeight hlpWeight = new hlpCalculateWeight();
+
+            if (sNazivArtikla != null)
+            {
+                sNazivArtikla = sNazivArtikla.ToUpper();
+
+                string[] split = sNazivArtikla.Split(' ');
+                foreach (var item in split)
+                {
+                    // weight
+                    if (item.Contains("g") || item.Contains("G"))
+                    {
+                        string[] splWeight = item.Split('G');
+                        if (splWeight.Length == 2 && CommonMethods.IsNumeric(splWeight[0].ToString()))
+                        {
+                            hlpWeight.Weight = Convert.ToInt32(splWeight[0]);
+                        }
+                    }
+
+                    // size
+                    if (item.Contains("x") || item.Contains("X"))
+                    {
+
+                        string[] splSize = item.Split('X');
+                        if (splSize.Length == 2 && CommonMethods.IsNumeric(splSize[0].ToString()) && CommonMethods.IsNumeric(splSize[1].ToString()))
+                        {
+                            string sSize1 = splSize[0];
+                            string sSize2 = splSize[1];
+
+                            sSize1 = sSize1.Replace(",", ".");
+                            sSize2 = sSize2.Replace(",", ".");
+
+                            hlpWeight.SizeA = CommonMethods.ParseDecimal(sSize1);
+                            hlpWeight.SizeB = CommonMethods.ParseDecimal(sSize2);
+                        }
+                    }
+                }
+            }
+            return hlpWeight;
         }
     }
 }

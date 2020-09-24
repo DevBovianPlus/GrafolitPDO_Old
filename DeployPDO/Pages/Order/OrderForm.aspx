@@ -224,17 +224,14 @@
                                                 <%--<ClientSideEvents EndCallback="onCityEndCallback" />--%>
                                             </PropertiesComboBox>
                                         </dx:GridViewDataComboBoxColumn>
-
-
-                                        <dx:GridViewDataTextColumn Name="Kol1" Caption="Kol1" FieldName="Kolicina1" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
-                                        <dx:GridViewDataTextColumn Name="EM1" Caption="EM1" FieldName="EnotaMere1" Width="2%" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Name="Kol2" Caption="Kol2" FieldName="Kolicina2" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
-                                        <dx:GridViewDataTextColumn Name="EM2" Caption="EM2" FieldName="EnotaMere2" Width="2%" EditFormSettings-Visible="false" />                                           
-                                        <dx:GridViewDataTextColumn Name="KolicinavKG" Caption="KolicinavKG" FieldName="KolicinavKG" Width="3%" Visible="false" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
-                                        <dx:GridViewDataTextColumn Name="NabCena" Caption="Nab. cena" FieldName="ArtikelCena" Width="5%" Visible="false" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Name="EnotaM" Caption="Enota mere" FieldName="EnotaMere" Width="3%" Visible="false" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Name="Rabat" Caption="Rabat" FieldName="Rabat" Width="3%" Visible="false" EditFormSettings-Visible="false" />
+                                        
                                         <dx:GridViewDataDateColumn Name="DatumDobavePos" Caption="Datum dob." FieldName="DatumDobavePos" Width="3%" Visible="true" EditFormSettings-Visible="false" PropertiesDateEdit-DisplayFormatString="dd.MM.yyyy" />
+                                        
+                                        <dx:GridViewDataTextColumn Name="Kol1" Caption="Kol v KG" FieldName="KolicinavKG" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
+                                        <dx:GridViewDataTextColumn Name="EM1" Caption="EM" FieldName="EnotaMere" Width="2%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Name="Kol2" Caption="Kol2" FieldName="KolicinaVPOL" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
+                                        <dx:GridViewDataTextColumn Name="EM2" Caption="EM2" FieldName="NarEnotaMere2" Width="2%" EditFormSettings-Visible="false" />                                                                                   
+                                        
 
                                         <%--<dx:GridViewDataTextColumn Caption="Naročilo" FieldName="NarociloStevilka_P" Width="15%" />--%>
                                     </Columns>
