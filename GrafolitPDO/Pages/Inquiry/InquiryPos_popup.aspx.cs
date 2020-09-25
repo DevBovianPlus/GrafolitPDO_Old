@@ -481,6 +481,9 @@ namespace GrafolitPDO.Pages.Inquiry
                     modelArtikel.Kolicina2 = CommonMethods.ParseDecimal(txtQuantity2.Text);
                     modelArtikel.EnotaMere2 = txtUnitOfMeasure2.Text;
 
+                    modelArtikel.KolicinavKG = modelArtikel.Kolicina1;
+                    modelArtikel.EnotaMere = modelArtikel.EnotaMere1;
+
                     modelArtikel.OpombaNarocilnica = MemoNotes.Text;
                     modelArtikel.NewAdd = true;
                     if (model.PovprasevanjePozicijaArtikel == null) model.PovprasevanjePozicijaArtikel = new List<InquiryPositionArtikelModel>();
