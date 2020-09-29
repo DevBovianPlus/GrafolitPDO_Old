@@ -15154,3 +15154,78 @@ A network-related or instance-specific error occurred while establishing a conne
 28. 09. 2020 15:28:43 Before SignIn
 28. 09. 2020 15:28:47 After SignIn
 28. 09. 2020 15:28:47 After Authenticate : True
+29. 09. 2020 14:35:23 Start log in? : True
+29. 09. 2020 14:35:23 Start log in?
+29. 09. 2020 14:35:25 Before Authenticate
+29. 09. 2020 14:35:25 Before SignIn
+29. 09. 2020 14:35:43 After SignIn
+29. 09. 2020 14:35:43 The underlying provider failed on Open.
+Cannot open database "GrafolitPDO" requested by the login. The login failed.
+Login failed for user 'martinp'.
+
+29. 09. 2020 14:35:43 
+29. 09. 2020 14:35:43 The underlying provider failed on Open.
+Cannot open database "GrafolitPDO" requested by the login. The login failed.
+Login failed for user 'martinp'.
+ 
+29. 09. 2020 14:38:06 Start log in? : True
+29. 09. 2020 14:38:06 Start log in?
+29. 09. 2020 14:39:37 Before Authenticate
+29. 09. 2020 14:39:37 Before SignIn
+29. 09. 2020 14:39:38 After SignIn
+29. 09. 2020 14:39:38 After Authenticate : True
+29. 09. 2020 14:40:58 Repository failed to retrieve dataRepository failed to retrieve dataAn error occurred while executing the command definition. See the inner exception for details.Invalid column name KolicinaVPOL.Invalid column name NarEnotaMere2.
+29. 09. 2020 14:41:26 Enter function
+29. 09. 2020 14:41:26 1
+29. 09. 2020 14:41:26 2
+29. 09. 2020 14:41:26 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:41:26 3
+29. 09. 2020 14:41:26 4
+29. 09. 2020 14:41:26 Repository failed to save dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PovprasevanjeID". The conflict occurred in database "GrafolitPDO", table "dbo.Povprasevanje", column PovprasevanjeID.The statement has been terminated.
+29. 09. 2020 14:42:04 Enter function
+29. 09. 2020 14:42:04 1
+29. 09. 2020 14:42:04 2
+29. 09. 2020 14:42:04 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:42:04 3
+29. 09. 2020 14:42:04 4
+29. 09. 2020 14:42:04 Repository failed to save dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PovprasevanjeID". The conflict occurred in database "GrafolitPDO", table "dbo.Povprasevanje", column PovprasevanjeID.The statement has been terminated.
+29. 09. 2020 14:42:48 Enter function
+29. 09. 2020 14:42:48 1
+29. 09. 2020 14:42:48 2
+29. 09. 2020 14:42:48 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:42:48 3
+29. 09. 2020 14:42:48 4
+29. 09. 2020 14:42:48 Repository failed to save dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PovprasevanjeID". The conflict occurred in database "GrafolitPDO", table "dbo.Povprasevanje", column PovprasevanjeID.The statement has been terminated.
+29. 09. 2020 14:45:03 Enter function
+29. 09. 2020 14:45:03 1
+29. 09. 2020 14:45:03 2
+29. 09. 2020 14:45:03 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:45:03 3
+29. 09. 2020 14:45:03 4
+29. 09. 2020 14:45:03 Repository failed to save dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PovprasevanjeID". The conflict occurred in database "GrafolitPDO", table "dbo.Povprasevanje", column PovprasevanjeID.The statement has been terminated.
+29. 09. 2020 14:45:38 Enter function
+29. 09. 2020 14:45:38 1
+29. 09. 2020 14:45:38 2
+29. 09. 2020 14:45:38 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:45:38 3
+29. 09. 2020 14:45:38 4
+29. 09. 2020 14:45:38 Repository failed to save dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The INSERT statement conflicted with the FOREIGN KEY constraint "FK_PovprasevanjeID". The conflict occurred in database "GrafolitPDO", table "dbo.Povprasevanje", column PovprasevanjeID.The statement has been terminated.
+29. 09. 2020 14:48:58 Enter function
+29. 09. 2020 14:48:58 1
+29. 09. 2020 14:48:58 2
+29. 09. 2020 14:48:58 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:48:58 3
+29. 09. 2020 14:48:58 4
+29. 09. 2020 14:54:49 Enter function
+29. 09. 2020 14:54:49 1
+29. 09. 2020 14:54:49 2
+29. 09. 2020 14:54:49 ROYALCOAT PREMIUM GLOSS 130G 45X64 SB
+29. 09. 2020 14:54:49 3
+29. 09. 2020 14:54:49 4
+29. 09. 2020 15:00:45 Enter function
+29. 09. 2020 15:00:45 1
+29. 09. 2020 15:00:45 2
+29. 09. 2020 15:00:45 ROYALCOAT PREMIUM SILK 130G 45X64 SB 
+29. 09. 2020 15:00:45 3
+29. 09. 2020 15:00:45 4
+29. 09. 2020 15:09:41 The request was aborted: The operation has timed out. System

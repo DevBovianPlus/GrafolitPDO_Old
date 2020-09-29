@@ -626,19 +626,19 @@ namespace GrafolitPDO.Pages.Order
 
             foreach (var item in model.PovprasevanjePozicijaArtikel)
             {
-                if (item.EnotaMere1.ToString().ToUpper() == "POL")
+                if (item.EnotaMere.ToString().ToUpper() == "POL")
                 {
                     hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(item.IzbraniArtikelNaziv_P);
 
-                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.Kolicina1));
+                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.KolicinavKG));
 
                     if (calc == 0) continue;
 
-                    item.EnotaMere1 = "KG";
-                    item.Kolicina2 = item.Kolicina1;
+                    item.EnotaMere = "KG";
+                    item.KolicinavKG = Convert.ToDecimal(calc); 
 
-                    item.Kolicina1 = Convert.ToDecimal(calc);
-                    item.EnotaMere2 = "POL";
+                    item.KolicinaVPOL = item.Kolicina1;
+                    item.NarEnotaMere2 = "POL";
 
 
                 }
