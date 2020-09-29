@@ -12,6 +12,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using GrafolitPDO.Helpers;
 using DatabaseWebService.ModelsPDO;
+using System.Configuration;
 
 namespace OptimizacijaTransprotov
 {
@@ -54,7 +55,8 @@ namespace OptimizacijaTransprotov
             string message = "";
             string username = CommonMethods.Trim(txtUsername.Text);
             string password = CommonMethods.Trim(txtPassword.Text);
-
+            CommonMethods.LogThis("Start log in? : " + CommonMethods.ParseBool(ConfigurationManager.AppSettings["EnableLogging"]).ToString());
+            CommonMethods.LogThis("Start log in?");
             try
             {
                 if (username != "" && password != "")

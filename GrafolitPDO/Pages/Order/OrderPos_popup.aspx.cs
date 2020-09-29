@@ -140,6 +140,7 @@ namespace GrafolitPDO.Pages.Order
                 {
                     
                     selArtikel.IzbraniArtikelIdent_P = selectedProduct.StevilkaArtikel;
+                    selArtikel.IzbraniArtikelNaziv_P = selectedProduct.Naziv;
                 }
                 string sCalcProductNaziv = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
                 if (txtEnotaMere.Text.ToUpper() == "POL")
