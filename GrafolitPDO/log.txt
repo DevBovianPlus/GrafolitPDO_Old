@@ -15229,3 +15229,36 @@ Login failed for user 'martinp'.
 29. 09. 2020 15:00:45 3
 29. 09. 2020 15:00:45 4
 29. 09. 2020 15:09:41 The request was aborted: The operation has timed out. System
+12. 10. 2020 15:31:15 Start log in? : True
+12. 10. 2020 15:31:15 Start log in?
+12. 10. 2020 15:31:31 Before Authenticate
+12. 10. 2020 15:31:31 Before SignIn
+12. 10. 2020 15:32:28 After SignIn
+12. 10. 2020 15:32:28 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+12. 10. 2020 15:32:28 
+12. 10. 2020 15:32:28 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+13. 10. 2020 09:20:16 Start log in? : True
+13. 10. 2020 09:20:16 Start log in?
+13. 10. 2020 09:20:58 Before Authenticate
+13. 10. 2020 09:20:59 Before SignIn
+13. 10. 2020 09:21:08 After SignIn
+13. 10. 2020 09:21:08 After Authenticate : True
+13. 10. 2020 18:26:30 Start log in? : True
+13. 10. 2020 18:26:31 Start log in?
+13. 10. 2020 18:26:33 Before Authenticate
+13. 10. 2020 18:26:33 Before SignIn
+13. 10. 2020 18:26:40 After SignIn
+13. 10. 2020 18:26:40 After Authenticate : True
+14. 10. 2020 07:35:52 Start log in? : True
+14. 10. 2020 07:35:52 Start log in?
+14. 10. 2020 07:37:15 Before Authenticate
+14. 10. 2020 07:37:15 Before SignIn
+14. 10. 2020 07:37:30 After SignIn
+14. 10. 2020 07:37:30 After Authenticate : True
+14. 10. 2020 09:43:23 The operation has timed out System
+14. 10. 2020 09:45:25 The request was aborted: The operation has timed out. System
+14. 10. 2020 09:47:05 The request was aborted: The operation has timed out. System
