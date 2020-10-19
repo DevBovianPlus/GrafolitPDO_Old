@@ -292,7 +292,7 @@ namespace GrafolitPDO.Pages.Order
                         productsPantheon.Kolicina2 = productsPantheon.Kolicina1;
 
                         productsPantheon.Kolicina1 = Convert.ToDecimal(calc);
-                        productsPantheon.EnotaMere2 = "POL";                        
+                        productsPantheon.EnotaMere2 = "POL";
                     }
                 }
                 cmb.DataSourceID = null;
@@ -626,29 +626,30 @@ namespace GrafolitPDO.Pages.Order
 
             foreach (var item in model.PovprasevanjePozicijaArtikel)
             {
-                if (item.EnotaMere.ToString().ToUpper() == "POL")
+                if (item.EnotaMere != null)
                 {
-                    hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(item.IzbraniArtikelNaziv_P);
+                    if (item.EnotaMere.ToString().ToUpper() == "POL")
+                    {
+                        hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(item.IzbraniArtikelNaziv_P);
 
-                    decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.KolicinavKG));
+                        decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(item.KolicinavKG));
 
-                    if (calc == 0) continue;
+                        if (calc == 0) continue;
 
-                    item.EnotaMere = "KG";
-                    item.KolicinavKG = Convert.ToDecimal(calc); 
+                        item.EnotaMere = "KG";
+                        item.KolicinavKG = Convert.ToDecimal(calc);
 
-                    item.KolicinaVPOL = item.Kolicina1;
-                    item.NarEnotaMere2 = "POL";
-
-
+                        item.KolicinaVPOL = item.Kolicina1;
+                        item.NarEnotaMere2 = "POL";
+                    }
                 }
             }
 
             GetInquiryDataProvider().SetInquiryModel(model);
         }
 
-       
-      
+
+
 
         public void SetSelectedPozicija(int PozicijaID)
         {

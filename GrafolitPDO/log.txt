@@ -15262,3 +15262,37 @@ A network-related or instance-specific error occurred while establishing a conne
 14. 10. 2020 09:43:23 The operation has timed out System
 14. 10. 2020 09:45:25 The request was aborted: The operation has timed out. System
 14. 10. 2020 09:47:05 The request was aborted: The operation has timed out. System
+19. 10. 2020 07:55:39 Start log in? : True
+19. 10. 2020 07:55:39 Start log in?
+19. 10. 2020 07:55:49 Before Authenticate
+19. 10. 2020 07:55:49 Before SignIn
+19. 10. 2020 07:56:21 After SignIn
+19. 10. 2020 07:56:21 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+19. 10. 2020 07:56:21 
+19. 10. 2020 07:56:21 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+19. 10. 2020 07:56:28 Start log in? : True
+19. 10. 2020 07:56:28 Start log in?
+19. 10. 2020 07:56:28 Before Authenticate
+19. 10. 2020 07:56:28 Before SignIn
+19. 10. 2020 07:56:31 After SignIn
+19. 10. 2020 07:56:31 After Authenticate : True
+19. 10. 2020 11:11:49 Pozdravljeni! 
+ Uporabnik OTP Admin je dne ponedeljek, 19. oktober 2020 ob 11:11:47 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.CheckIfPolePozicija() in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 629
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 426
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=969
+
+
+19. 10. 2020 11:22:55 Repository failed to save dataPDO Run Procedure _upJM_CreateSupplierOrder error:<br><br>Ident 0718211232026 ne obstaja v šifrantu identov!
