@@ -411,6 +411,9 @@ namespace GrafolitPDO.Pages.Order
                 AddOrEditEntityObject(false);
                 GetInquiryDataProvider().SetInquiryModel(model);
                 OrderModel = CreateOrder();
+                OrderModel.tsIDOsebe = PrincipalHelper.GetUserPrincipal().ID;
+                OrderModel.tsUpdateUserID = PrincipalHelper.GetUserPrincipal().ID;
+                OrderModel.tsUpdate = DateTime.Now;
                 OrderModel = CheckModelValidation(GetDatabaseConnectionInstance().SaveOrder(OrderModel));
                 btnSendToOrderDep.ClientVisible = true;
 

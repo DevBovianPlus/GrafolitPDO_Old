@@ -15296,3 +15296,37 @@ http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=969
 
 
 19. 10. 2020 11:22:55 Repository failed to save dataPDO Run Procedure _upJM_CreateSupplierOrder error:<br><br>Ident 0718211232026 ne obstaja v šifrantu identov!
+20. 10. 2020 09:30:42 Start log in? : True
+20. 10. 2020 09:30:42 Start log in?
+20. 10. 2020 09:30:42 Before Authenticate
+20. 10. 2020 09:30:42 Before SignIn
+20. 10. 2020 09:30:50 After SignIn
+20. 10. 2020 09:30:50 After Authenticate : True
+20. 10. 2020 09:36:54 The operation has timed out System
+20. 10. 2020 09:42:08 The request was aborted: The operation has timed out. System
+20. 10. 2020 10:45:12 Pozdravljeni! 
+ Uporabnik Boris Do je dne torek, 20. oktober 2020 ob 10:45:10 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Infrastructure.ServerMasterPage.CheckModelValidation[T](WebResponseContentModel`1 instance) in D:\GitHub\GrafolitPDO\GrafolitPDO\Infrastructure\ServerMasterPage.cs:line 481
+   at GrafolitPDO.Pages.Order.OrderForm.AddOrEditEntityObject(Boolean add) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 216
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 411
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=2&recordId=976
+
+
+20. 10. 2020 10:48:17 The operation has timed out System
+20. 10. 2020 11:38:08 The operation has timed out System
+20. 10. 2020 11:39:30 The underlying connection was closed: A connection that was expected to be kept alive was closed by the server. SystemUnable to read data from the transport connection: An existing connection was forcibly closed by the remote host. System
+20. 10. 2020 11:49:16 The request was aborted: The operation has timed out. System
+20. 10. 2020 11:50:11 Start log in? : True
+20. 10. 2020 11:50:11 Start log in?
+20. 10. 2020 11:50:11 Before Authenticate
+20. 10. 2020 11:50:11 Before SignIn
+20. 10. 2020 11:50:11 After SignIn
+20. 10. 2020 11:50:11 After Authenticate : True
