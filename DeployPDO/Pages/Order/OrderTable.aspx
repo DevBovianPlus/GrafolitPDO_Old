@@ -95,14 +95,16 @@
 
             <dx:GridViewDataTextColumn Caption="Številka naročila Pantheon" FieldName="NarociloStevilka_P" Width="15%" />
 
-            <dx:GridViewDataTextColumn Caption="Dobavitelj" FieldName="DobaviteljID.NazivPrvi" Width="30%" />
+            <dx:GridViewDataTextColumn Caption="Dobavitelj" FieldName="DobaviteljID.NazivPrvi" Width="28%" />
 
-            <dx:GridViewDataDateColumn Caption="Datum dobave" FieldName="DatumDobave" Width="10%" PropertiesDateEdit-DisplayFormatString="dd. MMMM yyyy" />
+            <dx:GridViewDataDateColumn Caption="Datum dobave" FieldName="DatumDobave" Width="12%" PropertiesDateEdit-DisplayFormatString="dd. MMMM yyyy" />
 
             <dx:GridViewDataTextColumn Caption="Status" FieldName="StatusModel.Naziv" Width="20%" />
             <dx:GridViewDataTextColumn Caption="StatusKoda" FieldName="StatusModel.Koda" Width="15%" Visible="false" />
 
             <dx:GridViewDataTextColumn Caption="Opombe" FieldName="Opombe" Width="40%" />
+
+            <dx:GridViewDataTextColumn Caption="Ustvaril" FieldName="NarociloIzdelal.Priimek" Width="10%" />
 
             <dx:GridViewDataTextColumn Caption="#" FieldName="P_UnsuccCountCreatePDFPantheon" Width="2%" />
 

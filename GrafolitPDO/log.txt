@@ -15330,3 +15330,265 @@ http://localhost:43428/Pages/Order/OrderForm.aspx?action=2&recordId=976
 20. 10. 2020 11:50:11 Before SignIn
 20. 10. 2020 11:50:11 After SignIn
 20. 10. 2020 11:50:11 After Authenticate : True
+17. 11. 2020 10:44:33 Start log in? : True
+17. 11. 2020 10:44:33 Start log in?
+17. 11. 2020 10:44:33 Before Authenticate
+17. 11. 2020 10:44:33 Before SignIn
+17. 11. 2020 10:44:36 After SignIn
+17. 11. 2020 10:44:36 After Authenticate : True
+17. 11. 2020 22:33:47 Start log in? : True
+17. 11. 2020 22:33:47 Start log in?
+17. 11. 2020 22:33:47 Before Authenticate
+17. 11. 2020 22:33:47 Before SignIn
+17. 11. 2020 22:33:52 After SignIn
+17. 11. 2020 22:33:52 After Authenticate : True
+18. 11. 2020 10:22:25 Start log in? : True
+18. 11. 2020 10:22:25 Start log in?
+18. 11. 2020 10:22:25 Before Authenticate
+18. 11. 2020 10:22:25 Before SignIn
+18. 11. 2020 10:22:33 After SignIn
+18. 11. 2020 10:22:33 After Authenticate : True
+18. 11. 2020 10:23:24 Repository failed to delete dataAn error occurred while updating the entries. See the inner exception for details.An error occurred while updating the entries. See the inner exception for details.The DELETE statement conflicted with the REFERENCE constraint "FK_N_PovprasevanjePozicijaID". The conflict occurred in database "GrafolitPDO", table "dbo.NarociloPozicija_PDO", column PovprasevanjePozicijaID.The statement has been terminated.
+3. 12. 2020 08:59:55 Start log in? : True
+3. 12. 2020 08:59:55 Start log in?
+3. 12. 2020 08:59:55 Before Authenticate
+3. 12. 2020 08:59:55 Before SignIn
+3. 12. 2020 08:59:56 After SignIn
+3. 12. 2020 08:59:56 After Authenticate : True
+7. 01. 2021 14:21:00 Start log in? : True
+7. 01. 2021 14:21:00 Start log in?
+7. 01. 2021 14:21:00 Before Authenticate
+7. 01. 2021 14:21:00 Before SignIn
+7. 01. 2021 14:21:01 After SignIn
+7. 01. 2021 14:21:01 After Authenticate : True
+7. 01. 2021 14:28:57 Enter function
+7. 01. 2021 14:28:57 1
+7. 01. 2021 14:28:57 2
+7. 01. 2021 14:28:57 NIVIS NEXT MATT 150G 45X85 SB
+7. 01. 2021 14:28:57 2
+7. 01. 2021 14:28:57 ROYALSET OFFSET 70G 120X70 BB
+7. 01. 2021 14:28:57 3
+7. 01. 2021 14:28:57 4
+7. 01. 2021 14:41:14 Start log in? : True
+7. 01. 2021 14:41:14 Start log in?
+7. 01. 2021 14:41:14 Before Authenticate
+7. 01. 2021 14:41:14 Before SignIn
+7. 01. 2021 14:41:14 After SignIn
+7. 01. 2021 14:41:14 After Authenticate : True
+7. 01. 2021 14:43:11 Start log in? : True
+7. 01. 2021 14:43:11 Start log in?
+7. 01. 2021 14:43:11 Before Authenticate
+7. 01. 2021 14:43:11 Before SignIn
+7. 01. 2021 14:43:11 After SignIn
+7. 01. 2021 14:43:11 After Authenticate : True
+7. 01. 2021 14:45:17 Enter function
+7. 01. 2021 14:45:17 1
+7. 01. 2021 14:45:17 2
+7. 01. 2021 14:45:17 ROYALCOAT PREMIUM GLOSS 135G 90X64 BB
+7. 01. 2021 14:45:17 2
+7. 01. 2021 14:45:17 ROYALCOAT PREMIUM SILK 135G 64X90 SB
+7. 01. 2021 14:45:17 3
+7. 01. 2021 14:45:17 4
+7. 01. 2021 15:05:05 Enter function
+7. 01. 2021 15:05:05 1
+7. 01. 2021 15:05:05 2
+7. 01. 2021 15:05:05 ROYALCOAT PREMIUM GLOSS 135G 90X64 BB
+7. 01. 2021 15:05:05 3
+7. 01. 2021 15:05:05 4
+7. 01. 2021 15:42:54 Start log in? : True
+7. 01. 2021 15:42:54 Start log in?
+7. 01. 2021 15:42:54 Before Authenticate
+7. 01. 2021 15:42:54 Before SignIn
+7. 01. 2021 15:42:55 After SignIn
+7. 01. 2021 15:42:55 After Authenticate : True
+7. 01. 2021 16:26:03 The operation has timed out System
+7. 01. 2021 16:32:21 Start log in? : True
+7. 01. 2021 16:32:21 Start log in?
+7. 01. 2021 16:32:21 Before Authenticate
+7. 01. 2021 16:32:21 Before SignIn
+7. 01. 2021 16:32:21 After SignIn
+7. 01. 2021 16:32:21 After Authenticate : True
+7. 01. 2021 16:35:08 Enter function
+7. 01. 2021 16:35:08 1
+7. 01. 2021 16:35:08 2
+7. 01. 2021 16:35:08 AKIR GLOSS 70G 63X88 SB
+7. 01. 2021 16:35:08 3
+7. 01. 2021 16:35:08 4
+9. 01. 2021 12:04:46 Start log in?
+9. 01. 2021 12:04:46 Start log in? : True
+9. 01. 2021 12:04:46 Start log in?
+9. 01. 2021 12:04:46 Before Authenticate
+9. 01. 2021 12:04:46 Before SignIn
+9. 01. 2021 12:04:50 After SignIn
+9. 01. 2021 12:04:50 After Authenticate : True
+9. 01. 2021 12:05:10 Start log in?
+9. 01. 2021 12:06:01 Start log in? : True
+9. 01. 2021 12:06:01 Start log in?
+9. 01. 2021 12:06:01 Before Authenticate
+9. 01. 2021 12:06:01 Before SignIn
+9. 01. 2021 12:06:01 After SignIn
+9. 01. 2021 12:06:01 After Authenticate : True
+1. 02. 2021 14:48:53 Page Load - Start
+1. 02. 2021 14:48:58 Page Load - Start
+1. 02. 2021 14:49:05 Page Load - Start
+1. 02. 2021 14:49:08 Start log in?
+1. 02. 2021 14:49:08 Start log in? : True
+1. 02. 2021 14:49:08 Start log in?
+1. 02. 2021 14:49:08 Before Authenticate
+1. 02. 2021 14:49:08 Before SignIn
+1. 02. 2021 14:49:47 After SignIn
+1. 02. 2021 14:49:48 After Authenticate : True
+1. 02. 2021 14:49:48 Page Load - Start
+1. 02. 2021 14:49:53 Page Load - Start
+1. 02. 2021 15:31:04 Page Load - Start
+1. 02. 2021 15:31:05 Page Load - Start
+1. 02. 2021 15:31:14 Page Load - Start
+1. 02. 2021 15:31:16 Start log in?
+1. 02. 2021 15:31:16 Start log in? : True
+1. 02. 2021 15:31:16 Start log in?
+1. 02. 2021 15:31:16 Before Authenticate
+1. 02. 2021 15:31:16 Before SignIn
+1. 02. 2021 15:31:28 After SignIn
+1. 02. 2021 15:31:28 Napačna prijava! Ponovno vnesi geslo in uporabniško ime!
+
+1. 02. 2021 15:31:28 
+1. 02. 2021 15:31:28 Napačna prijava! Ponovno vnesi geslo in uporabniško ime!
+ 
+16. 02. 2021 15:22:30 Page Load - Start
+16. 02. 2021 15:22:33 Page Load - Start
+16. 02. 2021 15:23:02 Page Load - Start
+16. 02. 2021 15:23:13 Start log in?
+16. 02. 2021 15:23:13 Start log in? : True
+16. 02. 2021 15:23:13 Start log in?
+16. 02. 2021 15:23:13 Before Authenticate
+16. 02. 2021 15:23:13 Before SignIn
+16. 02. 2021 15:23:14 After SignIn
+16. 02. 2021 15:23:14 After Authenticate : True
+16. 02. 2021 15:23:14 Page Load - Start
+16. 02. 2021 15:23:16 Page Load - Start
+4. 03. 2021 16:00:44 Page Load - Start
+4. 03. 2021 16:00:46 Page Load - Start
+4. 03. 2021 16:01:56 Page Load - Start
+4. 03. 2021 16:01:56 Start log in?
+4. 03. 2021 16:01:56 Start log in? : True
+4. 03. 2021 16:01:56 Start log in?
+4. 03. 2021 16:01:56 Before Authenticate
+4. 03. 2021 16:01:56 Before SignIn
+4. 03. 2021 16:01:58 After SignIn
+4. 03. 2021 16:01:58 After Authenticate : True
+4. 03. 2021 16:01:58 Page Load - Start
+4. 03. 2021 16:02:00 Page Load - Start
+4. 03. 2021 16:14:24 The operation has timed out System
+4. 03. 2021 16:16:05 The operation has timed out System
+4. 03. 2021 16:17:45 The operation has timed out System
+4. 03. 2021 16:19:25 The operation has timed out System
+4. 03. 2021 16:30:40 Enter function
+4. 03. 2021 16:30:40 1
+4. 03. 2021 16:30:40 2
+4. 03. 2021 16:30:40 test
+4. 03. 2021 16:30:40 3
+4. 03. 2021 16:30:40 4
+4. 03. 2021 16:35:38 Page Load - Start
+4. 03. 2021 16:35:41 Page Load - Start
+5. 03. 2021 01:00:23 Page Load - Start
+5. 03. 2021 01:00:24 Page Load - Start
+5. 03. 2021 08:27:54 Page Load - Start
+5. 03. 2021 08:27:54 Start log in?
+5. 03. 2021 08:27:54 Start log in? : True
+5. 03. 2021 08:27:54 Start log in?
+5. 03. 2021 08:27:54 Before Authenticate
+5. 03. 2021 08:27:54 Before SignIn
+5. 03. 2021 08:27:59 After SignIn
+5. 03. 2021 08:27:59 After Authenticate : True
+5. 03. 2021 08:27:59 Page Load - Start
+5. 03. 2021 08:28:00 Page Load - Start
+5. 03. 2021 09:39:11 Page Load - Start
+5. 03. 2021 09:39:15 Page Load - Start
+5. 03. 2021 09:39:21 Page Load - Start
+5. 03. 2021 09:39:24 Page Load - Start
+5. 03. 2021 09:44:45 Page Load - Start
+5. 03. 2021 09:44:54 Page Load - Start
+5. 03. 2021 10:49:31 Pozdravljeni! 
+ Uporabnik Boris Do je dne petek, 05. marec 2021 ob 10:49:29 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=2&recordId=1547
+
+
+5. 03. 2021 10:49:31 Page Load - Start
+5. 03. 2021 10:50:07 Page Load - Start
+5. 03. 2021 11:29:06 Page Load - Start
+5. 03. 2021 11:29:32 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:29:33 Page Load - Start
+5. 03. 2021 11:29:33 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:29:34 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:31:42 Page Load - Start
+5. 03. 2021 11:32:05 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:32:06 Page Load - Start
+5. 03. 2021 11:32:06 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:32:06 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:33:14 Page Load - Start
+5. 03. 2021 11:33:50 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:33:51 Page Load - Start
+5. 03. 2021 11:34:12 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 11:34:49 Dashboard repository errorThe underlying provider failed on Open.A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+5. 03. 2021 14:37:52 Pozdravljeni! 
+ Uporabnik Boris Do je dne petek, 05. marec 2021 ob 14:37:50 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at OptimizacijaTransprotov.Home.ChartsCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in D:\GitHub\GrafolitPDO\GrafolitPDO\Home.aspx.cs:line 101
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Home.aspx
+
+
+9. 03. 2021 14:06:45 Page Load - Start
+9. 03. 2021 14:06:47 Page Load - Start
+9. 03. 2021 14:18:04 Page Load - Start
+9. 03. 2021 14:18:04 Start log in?
+9. 03. 2021 14:18:04 Start log in? : True
+9. 03. 2021 14:18:04 Start log in?
+9. 03. 2021 14:18:04 Before Authenticate
+9. 03. 2021 14:18:04 Before SignIn
+9. 03. 2021 14:18:07 After SignIn
+9. 03. 2021 14:18:07 After Authenticate : True
+9. 03. 2021 14:18:08 Page Load - Start
+9. 03. 2021 14:18:11 Page Load - Start
+9. 03. 2021 14:30:18 The operation has timed out System
+9. 03. 2021 14:32:01 The operation has timed out System
+9. 03. 2021 14:46:13 Page Load - Start
+9. 03. 2021 14:46:15 Page Load - Start
+9. 03. 2021 14:52:09 Enter function
+9. 03. 2021 14:52:09 1
+9. 03. 2021 14:52:09 2
+9. 03. 2021 14:52:09 ARCOSET EXTRA WHITE 100G 76X54 BB
+9. 03. 2021 14:52:09 3
+9. 03. 2021 14:52:09 4
+9. 03. 2021 15:00:35 The operation has timed out System
+9. 03. 2021 15:02:16 The operation has timed out System
+9. 03. 2021 15:06:44 Enter function
+9. 03. 2021 15:06:44 1
+9. 03. 2021 15:06:44 2
+9. 03. 2021 15:06:44 ARCOSET EXTRA WHITE 100G 76X54 BB
+9. 03. 2021 15:06:44 3
+9. 03. 2021 15:06:44 4
+9. 03. 2021 15:12:24 The operation has timed out System
+9. 03. 2021 15:14:05 The operation has timed out System
+9. 03. 2021 15:15:45 The operation has timed out System
+9. 03. 2021 15:25:19 Enter function
+9. 03. 2021 15:25:19 1
+9. 03. 2021 15:25:19 2
+9. 03. 2021 15:25:19 SYMBOL CARD 330G 72X102 SB
+9. 03. 2021 15:25:19 3
+9. 03. 2021 15:25:19 4
+9. 03. 2021 23:49:30 Page Load - Start
+9. 03. 2021 23:49:31 Page Load - Start
+12. 03. 2021 10:47:27 Page Load - Start
+12. 03. 2021 10:47:31 Page Load - Start

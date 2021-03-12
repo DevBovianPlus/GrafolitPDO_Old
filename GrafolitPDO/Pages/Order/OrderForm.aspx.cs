@@ -543,6 +543,7 @@ namespace GrafolitPDO.Pages.Order
                     pos.OpombaNarocilnica = inqPos.OpombaNarocilnica;
                     pos.DatumDobavePos = inqPos.DatumDobavePos;
                     pos.DatumDobave = inqPos.DatumDobavePos;
+                    pos.Poreklo = inqPos.Poreklo;
 
                     listPosition.Add(pos);
                 }

@@ -29,8 +29,11 @@ namespace OptimizacijaTransprotov
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            CommonMethods.LogThis("Page Load - Start");
+
             if (Request.IsAuthenticated)
             {
+                
                 ASPxFormLayoutLogin.Visible = false;
                 FormLayoutWrap.Style.Add("display", "none");
                 MainDashboard.Style.Add("display", "block");
@@ -50,6 +53,7 @@ namespace OptimizacijaTransprotov
 
         protected void LoginCallback_Callback(object source, DevExpress.Web.CallbackEventArgs e)
         {
+            CommonMethods.LogThis("Start log in?");
             Authentication auth = new Authentication();
             bool signInSuccess = false;
             string message = "";

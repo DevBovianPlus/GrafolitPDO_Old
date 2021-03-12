@@ -141,6 +141,7 @@ namespace GrafolitPDO.Pages.Order
                     
                     selArtikel.IzbraniArtikelIdent_P = selectedProduct.StevilkaArtikel;
                     selArtikel.IzbraniArtikelNaziv_P = selectedProduct.Naziv;
+                    selArtikel.Poreklo = selectedProduct.Poreklo.ToString();
                 }
                 string sCalcProductNaziv = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
                 if (txtEnotaMere.Text.ToUpper() == "POL")
@@ -173,6 +174,7 @@ namespace GrafolitPDO.Pages.Order
                 selArtikel.OpombaNarocilnica = memOpombaNarocilnica.Text;
                 selArtikel.PrikaziKupca = CheckBoxPrikaziKupca.Checked;
                 selArtikel.DatumDobavePos = Convert.ToDateTime(DateEditSupplyDate.Value);
+                
 
                 selArtikel.DobaviteljNaziv_PA = txtDobavitellj.Text;
                 ClientFullModel Supplier = CheckModelValidation(GetDatabaseConnectionInstance().GetClientByNameOrInsert(selArtikel.DobaviteljNaziv_PA));

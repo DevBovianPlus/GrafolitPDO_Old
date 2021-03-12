@@ -62,6 +62,7 @@
                             <dx:GridViewDataTextColumn Caption="Velikost" FieldName="Velikost" Width="50" />
                             <dx:GridViewDataTextColumn Caption="Tek" FieldName="Tek" Width="50" />
                             <dx:GridViewDataTextColumn Caption="Dobavitelj" FieldName="Dobavitelj" Width="250" />
+                            <dx:GridViewDataTextColumn Caption="Poreklo" FieldName="Poreklo" Width="100" />
 
                         </Columns>
                     </dx:ASPxGridView>
