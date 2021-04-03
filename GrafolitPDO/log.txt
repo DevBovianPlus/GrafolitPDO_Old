@@ -15330,3 +15330,118 @@ http://localhost:43428/Pages/Order/OrderForm.aspx?action=2&recordId=976
 20. 10. 2020 11:50:11 Before SignIn
 20. 10. 2020 11:50:11 After SignIn
 20. 10. 2020 11:50:11 After Authenticate : True
+02/04/2021 08:04:44 Start log in? : True
+02/04/2021 08:04:44 Start log in?
+02/04/2021 08:04:44 Before Authenticate
+02/04/2021 08:04:44 Before SignIn
+02/04/2021 08:05:13 After SignIn
+02/04/2021 08:05:13 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+02/04/2021 08:05:13 
+02/04/2021 08:05:13 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+02/04/2021 08:08:04 Start log in? : True
+02/04/2021 08:08:04 Start log in?
+02/04/2021 08:08:04 Before Authenticate
+02/04/2021 08:08:04 Before SignIn
+02/04/2021 08:08:27 After SignIn
+02/04/2021 08:08:27 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+02/04/2021 08:08:27 
+02/04/2021 08:08:27 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+02/04/2021 08:08:46 Start log in? : True
+02/04/2021 08:08:46 Start log in?
+02/04/2021 08:08:46 Before Authenticate
+02/04/2021 08:08:46 Before SignIn
+02/04/2021 08:09:21 After SignIn
+02/04/2021 08:09:21 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+02/04/2021 08:09:21 
+02/04/2021 08:09:21 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+02/04/2021 08:16:21 Start log in? : True
+02/04/2021 08:16:22 Start log in?
+02/04/2021 08:16:25 Before Authenticate
+02/04/2021 08:16:28 Before SignIn
+02/04/2021 08:20:50 After SignIn
+02/04/2021 08:21:00 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+
+02/04/2021 08:21:00 
+02/04/2021 08:21:00 The underlying provider failed on Open.
+A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)The network path was not found
+ 
+02/04/2021 08:55:03 Start log in? : True
+02/04/2021 08:55:04 Start log in?
+02/04/2021 08:55:05 Before Authenticate
+02/04/2021 08:55:08 Before SignIn
+02/04/2021 08:56:41 Start log in? : True
+02/04/2021 08:56:41 Start log in?
+02/04/2021 08:56:41 Before Authenticate
+02/04/2021 08:56:41 Before SignIn
+02/04/2021 08:56:48 After SignIn
+02/04/2021 08:56:48 After Authenticate : True
+02/04/2021 15:23:24 Start log in? : True
+02/04/2021 15:23:24 Start log in?
+02/04/2021 15:23:24 Before Authenticate
+02/04/2021 15:23:24 Before SignIn
+02/04/2021 15:23:27 After SignIn
+02/04/2021 15:23:27 After Authenticate : True
+02/04/2021 15:27:22 Repository failed to save dataAn error occurred while executing the command definition. See the inner exception for details.Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.The wait operation timed out
+02/04/2021 15:33:08 The request was aborted: The operation has timed out. System
+02/04/2021 15:46:03 The request was aborted: The operation has timed out. System
+02/04/2021 15:47:44 The request was aborted: The operation has timed out. System
+02/04/2021 15:49:58 The request was aborted: The operation has timed out. System
+02/04/2021 15:58:04 Enter function
+02/04/2021 15:58:04 1
+02/04/2021 15:58:04 2
+02/04/2021 15:58:04 ARCOSET EXTRA WHITE 80G 70X100 SB PK
+02/04/2021 15:58:04 3
+02/04/2021 15:58:04 4
+02/04/2021 16:01:53 The operation has timed out System
+02/04/2021 16:02:40 Pozdravljeni! 
+ Uporabnik Boris Do je dne Friday, 2 April 2021 ob 16:02:38 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.CheckIfPolePozicija() in C:\Work\Grafolit\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 631
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in C:\Work\Grafolit\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 429
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=1826
+
+
+02/04/2021 16:02:53 Pozdravljeni! 
+ Uporabnik Boris Do je dne Friday, 2 April 2021 ob 16:02:52 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+ -------- System.NullReferenceException: Object reference not set to an instance of an object.
+   at GrafolitPDO.Pages.Order.OrderForm.ClearSelectedPozicija() in C:\Work\Grafolit\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 615
+   at GrafolitPDO.Pages.Order.OrderForm.CheckArtikelsWithPantheon() in C:\Work\Grafolit\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 563
+   at GrafolitPDO.Pages.Order.OrderForm.OrderCallbackPanel_Callback(Object sender, CallbackEventArgsBase e) in C:\Work\Grafolit\GrafolitPDO\GrafolitPDO\Pages\Order\OrderForm.aspx.cs:line 426
+   at DevExpress.Web.ASPxCallbackPanel.OnCallback(CallbackEventArgsBase e)
+   at DevExpress.Web.ASPxCallbackPanel.RaiseCallbackEvent(String eventArgument)
+   at DevExpress.Web.ASPxWebControl.System.Web.UI.ICallbackEventHandler.RaiseCallbackEvent(String eventArgument)
+ 
+DevExpress.Web.ASPxCallbackPanel
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=1826
+
+
+02/04/2021 16:06:42 The operation has timed out System
+02/04/2021 16:20:31 Repository failed to delete dataRepository failed to retrieve dataAn error occurred while executing the command definition. See the inner exception for details.External component has thrown an exception.
+03/04/2021 09:57:11 Start log in? : True
+03/04/2021 09:57:11 Start log in?
+03/04/2021 09:57:11 Before Authenticate
+03/04/2021 09:57:11 Before SignIn
+03/04/2021 09:57:14 After SignIn
+03/04/2021 09:57:14 After Authenticate : True

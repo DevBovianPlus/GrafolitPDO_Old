@@ -543,6 +543,7 @@ namespace GrafolitPDO.Pages.Order
                     pos.OpombaNarocilnica = inqPos.OpombaNarocilnica;
                     pos.DatumDobavePos = inqPos.DatumDobavePos;
                     pos.DatumDobave = inqPos.DatumDobavePos;
+                    pos.Poreklo = inqPos.Poreklo;
 
                     listPosition.Add(pos);
                 }
@@ -807,6 +808,7 @@ namespace GrafolitPDO.Pages.Order
                         {
                             inquiryPosArtikel.IzbraniArtikelNaziv_P = artikel_P.Naziv;
                             inquiryPosArtikel.IzbraniArtikelIdent_P = artikel_P.StevilkaArtikel;
+                            inquiryPosArtikel.Poreklo = artikel_P.Poreklo;
 
                             // ponastavimo kolekcijo zaradi tega, da gre na drug izdelek pri preverjanju
                             inquiryPosArtikel.ArtikliPantheon = new List<ProductModel> { artikel_P };
