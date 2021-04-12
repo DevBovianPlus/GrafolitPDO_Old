@@ -143,7 +143,7 @@ namespace GrafolitPDO.Pages.Order
                     selArtikel.IzbraniArtikelNaziv_P = selectedProduct.Naziv;
                 }
                 string sCalcProductNaziv = (selArtikel.IzbraniArtikelNaziv_P != null) ? selArtikel.IzbraniArtikelNaziv_P : selArtikel.Naziv;
-                if (txtEnotaMere.Text.ToUpper() == "POL")
+                if (txtEnotaMere.Text.ToUpper() == "SH" || txtEnotaMere.Text.ToUpper() == "POL")
                 {
                     hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(sCalcProductNaziv);
 
@@ -155,7 +155,7 @@ namespace GrafolitPDO.Pages.Order
                         selArtikel.EnotaMere = "KG";
                     }
                     selArtikel.KolicinaVPOL = Convert.ToDecimal(txtOrderQ.Text);
-                    selArtikel.NarEnotaMere2 = "POL";
+                    selArtikel.NarEnotaMere2 = "SH";
                 }
                 else 
                 {

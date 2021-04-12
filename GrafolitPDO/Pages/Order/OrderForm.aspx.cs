@@ -282,7 +282,7 @@ namespace GrafolitPDO.Pages.Order
             {
                 var productsPantheon = model.PovprasevanjePozicijaArtikel.Where(poz => poz.PovprasevanjePozicijaArtikelID == pozicijaArtikla).FirstOrDefault();
 
-                if (productsPantheon.EnotaMere1.ToString().ToUpper() == "POL")
+                if (productsPantheon.EnotaMere1.ToString().ToUpper() == "POL" || productsPantheon.EnotaMere1.ToString().ToUpper() == "SH")
                 {
                     hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(productsPantheon.IzbraniArtikelNaziv_P);
                     decimal calc = CommonMethods.CalculateSheetInKg(hw, CommonMethods.ParseDecimal(productsPantheon.Kolicina1));
@@ -292,7 +292,7 @@ namespace GrafolitPDO.Pages.Order
                         productsPantheon.Kolicina2 = productsPantheon.Kolicina1;
 
                         productsPantheon.Kolicina1 = Convert.ToDecimal(calc);
-                        productsPantheon.EnotaMere2 = "POL";
+                        productsPantheon.EnotaMere2 = "SH";
                     }
                 }
                 cmb.DataSourceID = null;
@@ -632,7 +632,7 @@ namespace GrafolitPDO.Pages.Order
             {
                 if (item.EnotaMere != null)
                 {
-                    if (item.EnotaMere.ToString().ToUpper() == "POL")
+                    if (item.EnotaMere.ToString().ToUpper() == "POL" || item.EnotaMere.ToString().ToUpper() == "SH")
                     {
                         hlpCalculateWeight hw = CommonMethods.GetCalculateWeight(item.IzbraniArtikelNaziv_P);
 
@@ -644,7 +644,7 @@ namespace GrafolitPDO.Pages.Order
                         item.KolicinavKG = Convert.ToDecimal(calc);
 
                         item.KolicinaVPOL = item.Kolicina1;
-                        item.NarEnotaMere2 = "POL";
+                        item.NarEnotaMere2 = "SH";
                     }
                 }
             }
