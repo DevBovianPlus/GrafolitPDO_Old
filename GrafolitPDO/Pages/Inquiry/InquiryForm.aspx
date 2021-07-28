@@ -356,11 +356,11 @@
                                                 </Styles>
                                                 <SettingsText EmptyDataRow="Trenutno ni podatka o artiklih. Dodaj novega." />
                                                 <Columns>
-                                                    <dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaID" Visible="false" SortOrder="Descending" />
+                                                    <dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaID" Visible="false" SortOrder="Descending" Width="2%" />
 
-                                                    <dx:GridViewDataTextColumn Caption="Dobavitelj" FieldName="DobaviteljNaziv_P" Width="8%" />
+                                                    <dx:GridViewDataTextColumn Caption="Dobavitelj" FieldName="DobaviteljNaziv_P" Width="18%" />
 
-                                                    <dx:GridViewDataTextColumn Caption="Artikli" FieldName="Artikli" Width="35%" />
+                                                    <dx:GridViewDataTextColumn Caption="Artikli" FieldName="Artikli" Width="80%" />
 
 
 
@@ -389,7 +389,7 @@
                                                                     <Columns>
                                                                       
 
-                                                                        <dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaArtikelID" Visible="false" SortOrder="Ascending" EditFormSettings-Visible="False" />
+                                                                        <dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaArtikelID" Visible="false" SortOrder="Ascending" EditFormSettings-Visible="False" Width="10px" />
 
                                                                         <dx:GridViewDataTextColumn Caption="Kategorija" FieldName="KategorijaNaziv" Width="7%" EditFormSettings-Visible="False" />
 

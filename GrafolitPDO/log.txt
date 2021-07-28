@@ -15535,3 +15535,20 @@ http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=1826
 12/04/2021 12:18:15 ROYALCOAT ULTRA MATT 100G 45X64 SB
 12/04/2021 12:18:15 3
 12/04/2021 12:18:15 4
+07/06/2021 13:41:46 Start log in? : True
+07/06/2021 13:41:46 Start log in?
+07/06/2021 13:41:46 Before Authenticate
+07/06/2021 13:41:46 Before SignIn
+07/06/2021 13:41:53 After SignIn
+07/06/2021 13:41:53 After Authenticate : True
+28/07/2021 10:41:15 Repository failed to save dataAn error occurred while executing the command definition. See the inner exception for details.Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.The wait operation timed out
+28/07/2021 11:23:55 Pozdravljeni! 
+ Uporabnik Martin Polegek je dne Wednesday, 28 July 2021 ob 11:23:52 naletel na napako! 
+ Podrobnosti napake so navedene spodaj: 
+ 
+
+ 
+ASP._global_asax
+http://localhost:43428/Pages/Order/OrderForm.aspx?action=1&recordId=1967
+
+

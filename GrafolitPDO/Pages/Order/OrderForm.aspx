@@ -209,28 +209,28 @@
                                     </Styles>
                                     <Columns>
                                         <dx:GridViewCommandColumn ShowEditButton="true" ShowNewButtonInHeader="false" Width="70px" Caption="Uredi" />
-                                        <dx:GridViewCommandColumn ShowSelectCheckbox="true" Width="50px" Caption="Izberi"></dx:GridViewCommandColumn>
+                                        <dx:GridViewCommandColumn ShowSelectCheckbox="true" Width="70px" Caption="Izberi"></dx:GridViewCommandColumn>
 
                                         <%--<dx:GridViewDataTextColumn Caption="ID" FieldName="PovprasevanjePozicijaArtikelID" Visible="false" SortOrder="Descending" />--%>
 
-                                        <dx:GridViewDataTextColumn Caption="Izbran dobavitelj" FieldName="DobaviteljNaziv_PA" Width="7%" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Caption="Kategorija" FieldName="KategorijaNaziv" Width="3%" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Caption="Popraševanje naziv art." FieldName="Naziv" Width="12%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Caption="Izbran dobavitelj" FieldName="DobaviteljNaziv_PA" Width="15%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Caption="Kategorija" FieldName="KategorijaNaziv" Width="5%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Caption="Popraševanje naziv art." FieldName="Naziv" Width="20%" EditFormSettings-Visible="false" />
                                         <%--<dx:GridViewDataTextColumn Caption="Naziv artikla - PANTHEON" FieldName="IzbraniArtikelNaziv_P" Width="15%" EditFormSettings-Visible="true" />--%>
 
-                                        <dx:GridViewDataComboBoxColumn FieldName="IzbraniArtikelNaziv_P" Caption="Naziv artikla - PANTHEON" Width="12%" EditFormSettings-Visible="true">
+                                        <dx:GridViewDataComboBoxColumn FieldName="IzbraniArtikelNaziv_P" Caption="Naziv artikla - PANTHEON" Width="25%" EditFormSettings-Visible="true">
                                             <PropertiesComboBox EnableSynchronization="false" IncrementalFilteringMode="StartsWith"
                                                 ValueField="TempID" TextField="Naziv" ValueType="System.Int32" DataSecurityMode="Default">
                                                 <%--<ClientSideEvents EndCallback="onCityEndCallback" />--%>
                                             </PropertiesComboBox>
                                         </dx:GridViewDataComboBoxColumn>
                                         
-                                        <dx:GridViewDataDateColumn Name="DatumDobavePos" Caption="Datum dob." FieldName="DatumDobavePos" Width="3%" Visible="true" EditFormSettings-Visible="false" PropertiesDateEdit-DisplayFormatString="dd.MM.yyyy" />
+                                        <dx:GridViewDataDateColumn Name="DatumDobavePos" Caption="Datum dob." FieldName="DatumDobavePos" Width="7%" Visible="true" EditFormSettings-Visible="false" PropertiesDateEdit-DisplayFormatString="dd.MM.yyyy" />
                                         
-                                        <dx:GridViewDataTextColumn Name="Kol1" Caption="Kol v KG" FieldName="KolicinavKG" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
-                                        <dx:GridViewDataTextColumn Name="EM1" Caption="EM" FieldName="EnotaMere" Width="2%" EditFormSettings-Visible="false" />
-                                        <dx:GridViewDataTextColumn Name="Kol2" Caption="Kol2" FieldName="KolicinaVPOL" Width="4%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
-                                        <dx:GridViewDataTextColumn Name="EM2" Caption="EM2" FieldName="NarEnotaMere2" Width="2%" EditFormSettings-Visible="false" />                                                                                   
+                                        <dx:GridViewDataTextColumn Name="Kol1" Caption="Kol v KG" FieldName="KolicinavKG" Width="7%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
+                                        <dx:GridViewDataTextColumn Name="EM1" Caption="EM" FieldName="EnotaMere" Width="3%" EditFormSettings-Visible="false" />
+                                        <dx:GridViewDataTextColumn Name="Kol2" Caption="Kol2" FieldName="KolicinaVPOL" Width="7%" EditFormSettings-Visible="false" PropertiesTextEdit-DisplayFormatString="{0:n2}" />
+                                        <dx:GridViewDataTextColumn Name="EM2" Caption="EM2" FieldName="NarEnotaMere2" Width="3%" EditFormSettings-Visible="false" />                                                                                   
                                         
 
                                         <%--<dx:GridViewDataTextColumn Caption="Naročilo" FieldName="NarociloStevilka_P" Width="15%" />--%>

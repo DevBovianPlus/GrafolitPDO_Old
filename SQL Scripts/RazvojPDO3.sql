@@ -34,6 +34,9 @@ select * from Stranka_PDO where StrankaID = 24 order by 1 desc
 select * from Stranka_PDO order by 1 desc
 select * from SystemEmailMessage_PDO where Status = 0 order by 1 desc
 select * from SystemEmailMessage_PDO order by 1 desc
+select * from SystemEmailMessage_PDO where EmailSubject like '%Obvestilo o generiranju narocilnice%'
+
+update SystemEmailMessage_PDO set Status=1 where Status = 0
 
 select * from GetArtikelByName('ARCTI', '64X90')
 select * from GetArtikelByNamePantheonOnly('R.D.M.', '150G 45X85 SB')
@@ -43,7 +46,7 @@ SELECT MS.IDENT, MS.DOBAVITELJ, MS.* FROM Grafolit55SI.dbo.MS MS  where MS.NAZIV
 select * from DW.dbo.DIM_Identi where IDENT = '0712080301047   '
 select * from DW.dbo.DIM_Identi where NAZIV like '%130G 45X64 SB%'
 SELECT MS.IDENT, MS.DOBAVITELJ, MS.* FROM Grafolit55SI.dbo.MS MS  where MS.NAZIV = 'ROYALSET OFFSET 80G 64X90 SB'
-SELECT MS.IDENT, MS.DOBAVITELJ, MS.* FROM Grafolit55SI.dbo.MS MS  where MS.NAZIV like '%SIRIO PEARL POLAR %'
+SELECT MS.IDENT, MS.DOBAVITELJ, MS.* FROM Grafolit55SI.dbo.MS MS  where MS.NAZIV like '%ROYALCOAT ULTRA MATT 100G 45X64 SB%'
 
 delete from DW.dbo.DIM_Identi  where IDENT = '0712080301047   '
 
@@ -56,6 +59,7 @@ AND MS.NAZIV LIKE '%64X90%'
 update Povprasevanje set StatusID = 6 where PovprasevanjeID = 825
 select * from Povprasevanje where Year(ts) = 2020
 select * from Povprasevanje  order by 1 desc
+select * from PovprasevanjePozicija  order by 1 desc
 select * from Povprasevanje where PovprasevanjeID = 11
 select * from PovprasevanjePozicija where PovprasevanjeID = 11
 select * from PovprasevanjePozicijaArtikel where PovprasevanjePozicijaID in (select PovprasevanjePozicijaID from PovprasevanjePozicija where PovprasevanjeID = 11)
@@ -63,12 +67,20 @@ select * from PovprasevanjePozicijaArtikel where PovprasevanjePozicijaID in (sel
 update PovprasevanjePozicijaArtikel set IzbranArtikel = 0 where PovprasevanjePozicijaID in (select PovprasevanjePozicijaID from PovprasevanjePozicija where PovprasevanjeID = 11) and IzbranArtikel = 1
 delete from Povprasevanje where PovprasevanjeID = 11
 select * from StatusPovprasevanja
+select * from Stranka_PDO where KodaStranke = 'GRAFOLIT'
+select * from Stranka_PDO 
+select * from KontaktnaOseba_PDO where StrankaID = 35
+
+update KontaktnaOseba_PDO set Naziv = 'Boris SeedGrov', Email='boris.dolinsek@seedgrow.si' where KontaktnaOsebaID = 5
+update KontaktnaOseba_PDO set Naziv = 'Boris Gmail', Email='boris.dolinsek@gmail.com' where KontaktnaOsebaID = 28
+update KontaktnaOseba_PDO set Naziv = 'Boris BovianPlus', Email='boris.dolinsek@bovianplus.si' where KontaktnaOsebaID = 80
+
 
 update SystemEmailMessage_PDO set EmailTo = TOEmails where len(EmailTo) = 0
 
 select * from SystemEmailMessage_PDO order by 1 desc
 update SystemEmailMessage_PDO set Status = 0 where SystemEmailMessageID in (136,140,138)
-update SystemEmailMessage_PDO set Status = 1 where SystemEmailMessageID < 194
+update SystemEmailMessage_PDO set Status = 1 where SystemEmailMessageID < 3279 and Status = 0;
 update SystemEmailMessage_PDO set Status = 0 where SystemEmailMessageID > 194
 
 update KontaktnaOseba_PDO set Email = 'boris.dolinsek@gmail.com'
@@ -103,7 +115,7 @@ WHERE
 select DISTINCT Kategorija from DW.dbo.DIM_Identi order by Kategorija desc
 
 select * from DW.dbo.DIM_Identi order by Kategorija
-select * from Grafolit55SI.dbo.MS where MS.DOBAVITELJ like'%SAPPI%' and MS.NAZIV like '%ROYALCOAT PREMIUM GLOSS 135G 64X90 SB%'
+select * from Grafolit55SI.dbo.MS where MS.DOBAVITELJ like'%FEDRI%' and MS.NAZIV like '%ARCOSET EXTRA WHITE 80G 70X100 SB PK%'
 
 SELECT I.IDENT AS StArtikla, MS.NAZIV, Kategorija, Gloss, Gramatura, Velikost, Tek, DOBAVITELJ
 FROM Grafolit55SI.dbo.MS MS
